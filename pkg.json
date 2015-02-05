@@ -1,0 +1,17 @@
+{
+	"src": "js/src/",
+	"out": "js/dist/",
+	"code": {
+		"main": [
+			"js",
+			"dist",
+			"disjoint-set.js"
+		],
+		"test": [
+			"test",
+			"js"
+		]
+	},
+	"name": "disjoint-set",
+	"debug": false
+}
