@@ -24,8 +24,8 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
     }, {
       "type": "folder",
       "data": {
-        "path": "adt",
-        "title": "adt"
+        "path": "000-fundamentals",
+        "title": "000-fundamentals"
       },
       "depth": 1,
       "children": [
@@ -41,180 +41,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetForest.js",
-            "projectPath": "js/src/adt/DisjointSetForest.js",
-            "targetPath": "adt/DisjointSetForest",
-            "pageTitle": "adt/DisjointSetForest",
-            "title": "DisjointSetForest"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetForestAmortizedHalving.js",
-            "projectPath": "js/src/adt/DisjointSetForestAmortizedHalving.js",
-            "targetPath": "adt/DisjointSetForestAmortizedHalving",
-            "pageTitle": "adt/DisjointSetForestAmortizedHalving",
-            "title": "DisjointSetForestAmortizedHalving"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetForestAmortizedRecursive.js",
-            "projectPath": "js/src/adt/DisjointSetForestAmortizedRecursive.js",
-            "targetPath": "adt/DisjointSetForestAmortizedRecursive",
-            "pageTitle": "adt/DisjointSetForestAmortizedRecursive",
-            "title": "DisjointSetForestAmortizedRecursive"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetForestAmortizedSplitting.js",
-            "projectPath": "js/src/adt/DisjointSetForestAmortizedSplitting.js",
-            "targetPath": "adt/DisjointSetForestAmortizedSplitting",
-            "pageTitle": "adt/DisjointSetForestAmortizedSplitting",
-            "title": "DisjointSetForestAmortizedSplitting"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetForestAmortizedTwoPasses.js",
-            "projectPath": "js/src/adt/DisjointSetForestAmortizedTwoPasses.js",
-            "targetPath": "adt/DisjointSetForestAmortizedTwoPasses",
-            "pageTitle": "adt/DisjointSetForestAmortizedTwoPasses",
-            "title": "DisjointSetForestAmortizedTwoPasses"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetLinkedList.js",
-            "projectPath": "js/src/adt/DisjointSetLinkedList.js",
-            "targetPath": "adt/DisjointSetLinkedList",
-            "pageTitle": "adt/DisjointSetLinkedList",
-            "title": "DisjointSetLinkedList"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetLinkedListWithHead.js",
-            "projectPath": "js/src/adt/DisjointSetLinkedListWithHead.js",
-            "targetPath": "adt/DisjointSetLinkedListWithHead",
-            "pageTitle": "adt/DisjointSetLinkedListWithHead",
-            "title": "DisjointSetLinkedListWithHead"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/adt/DisjointSetLinkedListWithHeadAndLength.js",
-            "projectPath": "js/src/adt/DisjointSetLinkedListWithHeadAndLength.js",
-            "targetPath": "adt/DisjointSetLinkedListWithHeadAndLength",
-            "pageTitle": "adt/DisjointSetLinkedListWithHeadAndLength",
-            "title": "DisjointSetLinkedListWithHeadAndLength"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
-    }, {
-      "type": "folder",
-      "data": {
-        "path": "fundamentals",
-        "title": "fundamentals"
-      },
-      "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/LinkedListNode.js",
-            "projectPath": "js/src/fundamentals/LinkedListNode.js",
-            "targetPath": "fundamentals/LinkedListNode",
-            "pageTitle": "fundamentals/LinkedListNode",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/LinkedListNode.js",
+            "projectPath": "js/src/000-fundamentals/LinkedListNode.js",
+            "targetPath": "000-fundamentals/LinkedListNode",
+            "pageTitle": "000-fundamentals/LinkedListNode",
             "title": "LinkedListNode"
           },
           "depth": 2,
@@ -231,10 +61,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/RankedTreeNode.js",
-            "projectPath": "js/src/fundamentals/RankedTreeNode.js",
-            "targetPath": "fundamentals/RankedTreeNode",
-            "pageTitle": "fundamentals/RankedTreeNode",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/RankedTreeNode.js",
+            "projectPath": "js/src/000-fundamentals/RankedTreeNode.js",
+            "targetPath": "000-fundamentals/RankedTreeNode",
+            "pageTitle": "000-fundamentals/RankedTreeNode",
             "title": "RankedTreeNode"
           },
           "depth": 2,
@@ -251,10 +81,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/_makeset.js",
-            "projectPath": "js/src/fundamentals/_makeset.js",
-            "targetPath": "fundamentals/_makeset",
-            "pageTitle": "fundamentals/_makeset",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/_makeset.js",
+            "projectPath": "js/src/000-fundamentals/_makeset.js",
+            "targetPath": "000-fundamentals/_makeset",
+            "pageTitle": "000-fundamentals/_makeset",
             "title": "_makeset"
           },
           "depth": 2,
@@ -271,10 +101,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/linkedlistbackfind.js",
-            "projectPath": "js/src/fundamentals/linkedlistbackfind.js",
-            "targetPath": "fundamentals/linkedlistbackfind",
-            "pageTitle": "fundamentals/linkedlistbackfind",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/linkedlistbackfind.js",
+            "projectPath": "js/src/000-fundamentals/linkedlistbackfind.js",
+            "targetPath": "000-fundamentals/linkedlistbackfind",
+            "pageTitle": "000-fundamentals/linkedlistbackfind",
             "title": "linkedlistbackfind"
           },
           "depth": 2,
@@ -291,10 +121,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/linkedlistmakeset.js",
-            "projectPath": "js/src/fundamentals/linkedlistmakeset.js",
-            "targetPath": "fundamentals/linkedlistmakeset",
-            "pageTitle": "fundamentals/linkedlistmakeset",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/linkedlistmakeset.js",
+            "projectPath": "js/src/000-fundamentals/linkedlistmakeset.js",
+            "targetPath": "000-fundamentals/linkedlistmakeset",
+            "pageTitle": "000-fundamentals/linkedlistmakeset",
             "title": "linkedlistmakeset"
           },
           "depth": 2,
@@ -311,10 +141,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/rankedtreemakeset.js",
-            "projectPath": "js/src/fundamentals/rankedtreemakeset.js",
-            "targetPath": "fundamentals/rankedtreemakeset",
-            "pageTitle": "fundamentals/rankedtreemakeset",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/rankedtreemakeset.js",
+            "projectPath": "js/src/000-fundamentals/rankedtreemakeset.js",
+            "targetPath": "000-fundamentals/rankedtreemakeset",
+            "pageTitle": "000-fundamentals/rankedtreemakeset",
             "title": "rankedtreemakeset"
           },
           "depth": 2,
@@ -331,10 +161,10 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/fundamentals/rankedtreeunion.js",
-            "projectPath": "js/src/fundamentals/rankedtreeunion.js",
-            "targetPath": "fundamentals/rankedtreeunion",
-            "pageTitle": "fundamentals/rankedtreeunion",
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/rankedtreeunion.js",
+            "projectPath": "js/src/000-fundamentals/rankedtreeunion.js",
+            "targetPath": "000-fundamentals/rankedtreeunion",
+            "pageTitle": "000-fundamentals/rankedtreeunion",
             "title": "rankedtreeunion"
           },
           "depth": 2,
@@ -342,25 +172,205 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         }
       ]
     }, {
-      "type": "file",
+      "type": "folder",
       "data": {
-        "language": {
-          "nameMatchers": [".js"],
-          "pygmentsLexer": "javascript",
-          "multiLineComment": ["/*", "*", "*/"],
-          "singleLineComment": ["//"],
-          "ignorePrefix": "}",
-          "foldPrefix": "^",
-          "name": "JavaScript"
-        },
-        "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/prototype.js",
-        "projectPath": "js/src/prototype.js",
-        "targetPath": "prototype",
-        "pageTitle": "prototype",
-        "title": "prototype"
+        "path": "001-adt",
+        "title": "001-adt"
       },
       "depth": 1,
-      "outline": []
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/Forest.js",
+            "projectPath": "js/src/001-adt/Forest.js",
+            "targetPath": "001-adt/Forest",
+            "pageTitle": "001-adt/Forest",
+            "title": "Forest"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedHalving.js",
+            "projectPath": "js/src/001-adt/ForestAmortizedHalving.js",
+            "targetPath": "001-adt/ForestAmortizedHalving",
+            "pageTitle": "001-adt/ForestAmortizedHalving",
+            "title": "ForestAmortizedHalving"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedRecursive.js",
+            "projectPath": "js/src/001-adt/ForestAmortizedRecursive.js",
+            "targetPath": "001-adt/ForestAmortizedRecursive",
+            "pageTitle": "001-adt/ForestAmortizedRecursive",
+            "title": "ForestAmortizedRecursive"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedSplitting.js",
+            "projectPath": "js/src/001-adt/ForestAmortizedSplitting.js",
+            "targetPath": "001-adt/ForestAmortizedSplitting",
+            "pageTitle": "001-adt/ForestAmortizedSplitting",
+            "title": "ForestAmortizedSplitting"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedTwoPasses.js",
+            "projectPath": "js/src/001-adt/ForestAmortizedTwoPasses.js",
+            "targetPath": "001-adt/ForestAmortizedTwoPasses",
+            "pageTitle": "001-adt/ForestAmortizedTwoPasses",
+            "title": "ForestAmortizedTwoPasses"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedList.js",
+            "projectPath": "js/src/001-adt/LinkedList.js",
+            "targetPath": "001-adt/LinkedList",
+            "pageTitle": "001-adt/LinkedList",
+            "title": "LinkedList"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedListWithHead.js",
+            "projectPath": "js/src/001-adt/LinkedListWithHead.js",
+            "targetPath": "001-adt/LinkedListWithHead",
+            "pageTitle": "001-adt/LinkedListWithHead",
+            "title": "LinkedListWithHead"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedListWithHeadAndLength.js",
+            "projectPath": "js/src/001-adt/LinkedListWithHeadAndLength.js",
+            "targetPath": "001-adt/LinkedListWithHeadAndLength",
+            "pageTitle": "001-adt/LinkedListWithHeadAndLength",
+            "title": "LinkedListWithHeadAndLength"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
+    }, {
+      "type": "folder",
+      "data": {
+        "path": "999-tools",
+        "title": "999-tools"
+      },
+      "depth": 1,
+      "children": [
+        {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/999-tools/_prototype.js",
+            "projectPath": "js/src/999-tools/_prototype.js",
+            "targetPath": "999-tools/_prototype",
+            "pageTitle": "999-tools/_prototype",
+            "title": "_prototype"
+          },
+          "depth": 2,
+          "outline": []
+        }
+      ]
     }
   ];
 
