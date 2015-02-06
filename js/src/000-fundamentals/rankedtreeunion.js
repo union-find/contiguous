@@ -1,25 +1,20 @@
 
 var rankedtreeunion = function ( a , b ) {
 
-	var roota , rootb ;
-
-	roota = find( a ) ;
-	rootb = find( b ) ;
-
-	if ( roota.rank < rootb.rank ) {
-		roota.parent = rootb ;
-		return rootb ;
+	if ( a.rank < b.rank ) {
+		a.parent = b ;
+		return b ;
 	}
 
-	else if ( roota.rank > rootb.rank ) {
-		rootb.parent = roota ;
-		return roota ;
+	else if ( a.rank > b.rank ) {
+		b.parent = a ;
+		return a ;
 	}
 
 	else {
-		rootb.parent = roota ;
-		++roota.rank ;
-		return roota ;
+		b.parent = a ;
+		++a.rank ;
+		return a ;
 	}
 
 } ;
