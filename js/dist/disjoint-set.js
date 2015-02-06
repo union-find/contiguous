@@ -3,8 +3,98 @@
 	'use strict';
 
 
-/* js/src/adt */
-/* js/src/adt/DisjointSetForest.js */
+/* js/src/000-fundamentals */
+/* js/src/000-fundamentals/LinkedListNode.js */
+
+var LinkedListNode = function ( value ) {
+	this.back = this ;
+	this.next = null ;
+	this.value = value ;
+} ;
+
+exports.LinkedListNode = LinkedListNode ;
+
+
+/* js/src/000-fundamentals/RankedTreeNode.js */
+
+var RankedTreeNode = function ( value ) {
+	this.rank = 0 ;
+	this.parent = this ;
+	this.value = value ;
+} ;
+
+exports.RankedTreeNode = RankedTreeNode ;
+
+
+/* js/src/000-fundamentals/_makeset.js */
+
+var _makeset = function ( Node ) {
+
+	return function ( value ) {
+
+		return new Node( value ) ;
+
+	} ;
+
+} ;
+
+exports._makeset = _makeset ;
+
+/* js/src/000-fundamentals/linkedlistbackfind.js */
+
+var linkedlistbackfind = function ( node ) {
+
+	return node.back ;
+
+} ;
+
+exports.linkedlistbackfind = linkedlistbackfind ;
+
+
+/* js/src/000-fundamentals/linkedlistmakeset.js */
+
+var linkedlistmakeset = _makeset( LinkedListNode ) ;
+
+exports.linkedlistmakeset = linkedlistmakeset ;
+
+
+/* js/src/000-fundamentals/rankedtreemakeset.js */
+
+var rankedtreemakeset = _makeset( RankedTreeNode ) ;
+
+exports.rankedtreemakeset = rankedtreemakeset ;
+
+/* js/src/000-fundamentals/rankedtreeunion.js */
+
+var rankedtreeunion = function ( a , b ) {
+
+	var roota , rootb ;
+
+	roota = find( a ) ;
+	rootb = find( b ) ;
+
+	if ( roota.rank < rootb.rank ) {
+		roota.parent = rootb ;
+		return rootb ;
+	}
+
+	else if ( roota.rank > rootb.rank ) {
+		rootb.parent = roota ;
+		return roota ;
+	}
+
+	else {
+		rootb.parent = roota ;
+		++roota.rank ;
+		return roota ;
+	}
+
+} ;
+
+exports.rankedtreeunion = rankedtreeunion ;
+
+/* js/src/001-adt */
+/* js/src/001-adt/Forest.js */
 (function(exports){
 
 
@@ -41,8 +131,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetForest'] = {});
-/* js/src/adt/DisjointSetForestAmortizedHalving.js */
+})(exports['Forest'] = {});
+/* js/src/001-adt/ForestAmortizedHalving.js */
 (function(exports){
 
 
@@ -76,8 +166,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetForestAmortizedHalving'] = {});
-/* js/src/adt/DisjointSetForestAmortizedRecursive.js */
+})(exports['ForestAmortizedHalving'] = {});
+/* js/src/001-adt/ForestAmortizedRecursive.js */
 (function(exports){
 
 
@@ -105,8 +195,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetForestAmortizedRecursive'] = {});
-/* js/src/adt/DisjointSetForestAmortizedSplitting.js */
+})(exports['ForestAmortizedRecursive'] = {});
+/* js/src/001-adt/ForestAmortizedSplitting.js */
 (function(exports){
 
 
@@ -139,8 +229,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetForestAmortizedSplitting'] = {});
-/* js/src/adt/DisjointSetForestAmortizedTwoPasses.js */
+})(exports['ForestAmortizedSplitting'] = {});
+/* js/src/001-adt/ForestAmortizedTwoPasses.js */
 (function(exports){
 
 
@@ -175,8 +265,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetForestAmortizedTwoPasses'] = {});
-/* js/src/adt/DisjointSetLinkedList.js */
+})(exports['ForestAmortizedTwoPasses'] = {});
+/* js/src/001-adt/LinkedList.js */
 (function(exports){
 
 
@@ -211,8 +301,8 @@ exports.find = find ;
 exports.makeset = makeset ;
 
 
-})(exports['DisjointSetLinkedList'] = {});
-/* js/src/adt/DisjointSetLinkedListWithHead.js */
+})(exports['LinkedList'] = {});
+/* js/src/001-adt/LinkedListWithHead.js */
 (function(exports){
 
 
@@ -245,8 +335,8 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetLinkedListWithHead'] = {});
-/* js/src/adt/DisjointSetLinkedListWithHeadAndLength.js */
+})(exports['LinkedListWithHead'] = {});
+/* js/src/001-adt/LinkedListWithHeadAndLength.js */
 (function(exports){
 
 
@@ -292,100 +382,11 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-})(exports['DisjointSetLinkedListWithHeadAndLength'] = {});
-/* js/src/fundamentals */
-/* js/src/fundamentals/LinkedListNode.js */
+})(exports['LinkedListWithHeadAndLength'] = {});
+/* js/src/999-tools */
+/* js/src/999-tools/_prototype.js */
 
-var LinkedListNode = function ( value ) {
-	this.back = this ;
-	this.next = null ;
-	this.value = value ;
-} ;
-
-exports.LinkedListNode = LinkedListNode ;
-
-
-/* js/src/fundamentals/RankedTreeNode.js */
-
-var RankedTreeNode = function ( value ) {
-	this.rank = 0 ;
-	this.parent = this ;
-	this.value = value ;
-} ;
-
-exports.RankedTreeNode = RankedTreeNode ;
-
-
-/* js/src/fundamentals/_makeset.js */
-
-var _makeset = function ( Node ) {
-
-	return function ( value ) {
-
-		return new Node( value ) ;
-
-	} ;
-
-} ;
-
-exports._makeset = _makeset ;
-
-/* js/src/fundamentals/linkedlistbackfind.js */
-
-var linkedlistbackfind = function ( node ) {
-
-	return node.back ;
-
-} ;
-
-exports.linkedlistbackfind = linkedlistbackfind ;
-
-
-/* js/src/fundamentals/linkedlistmakeset.js */
-
-var linkedlistmakeset = _makeset( LinkedListNode ) ;
-
-exports.linkedlistmakeset = linkedlistmakeset ;
-
-
-/* js/src/fundamentals/rankedtreemakeset.js */
-
-var rankedtreemakeset = _makeset( RankedTreeNode ) ;
-
-exports.rankedtreemakeset = rankedtreemakeset ;
-
-/* js/src/fundamentals/rankedtreeunion.js */
-
-var rankedtreeunion = function ( a , b ) {
-
-	var roota , rootb ;
-
-	roota = find( a ) ;
-	rootb = find( b ) ;
-
-	if ( roota.rank < rootb.rank ) {
-		roota.parent = rootb ;
-		return rootb ;
-	}
-
-	else if ( roota.rank > rootb.rank ) {
-		rootb.parent = roota ;
-		return roota ;
-	}
-
-	else {
-		rootb.parent = roota ;
-		++roota.rank ;
-		return roota ;
-	}
-
-} ;
-
-exports.rankedtreeunion = rankedtreeunion ;
-
-/* js/src/prototype.js */
-
-var prototype = function ( Set , union , find ) {
+var _prototype = function ( Set , union , find ) {
 
 	Set.prototype.union = function ( other ) {
 		return union( this , other ) ;
@@ -397,7 +398,7 @@ var prototype = function ( Set , union , find ) {
 
 } ;
 
-exports.prototype = prototype ;
+exports._prototype = _prototype ;
 
 
 })(typeof exports === 'undefined' ? this['disjointset'] = {} : exports);

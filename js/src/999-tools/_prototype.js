@@ -1,5 +1,5 @@
 
-var prototype = function ( Set , union , find ) {
+var _prototype = function ( Set , union , find ) {
 
 	Set.prototype.union = function ( other ) {
 		return union( this , other ) ;
@@ -11,5 +11,5 @@ var prototype = function ( Set , union , find ) {
 
 } ;
 
-exports.prototype = prototype ;
+exports._prototype = _prototype ;
 
