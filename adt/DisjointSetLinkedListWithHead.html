@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head><title>adt/DisjointSetLinkedListWithHead</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content="../"><meta name="groc-document-path" content="adt/DisjointSetLinkedListWithHead"><meta name="groc-project-path" content="js/src/adt/DisjointSetLinkedListWithHead.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-disjoint-set"><link rel="stylesheet" type="text/css" media="all" href="../assets/style.css"><script type="text/javascript" src="../assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-disjoint-set/blob/master/js/src/adt/DisjointSetLinkedListWithHead.js">js/src/adt/DisjointSetLinkedListWithHead.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="hljs-keyword">var</span> Node , union , find , makeset ;
+
+Node = LinkedListNode ;
+
+union = <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( a , b )</span> </span>{
+
+	<span class="hljs-keyword">var</span> it ;
+
+	a.back.next = b ;
+	a.back = b.back ;
+
+	<span class="hljs-keyword">for</span> ( it = a.next ; it !== b ; it = it.next ) {
+		it.back = b.back ;
+	}
+
+	<span class="hljs-keyword">return</span> a ;
+
+} ;
+
+find = linkedlistbackfind ;
+
+makeset = linkedlistmakeset ;
+
+exports.Node = Node ;
+exports.union = union ;
+exports.find = find ;
+exports.makeset = makeset ;</div></div></div></div></body></html>
