@@ -127,7 +127,6 @@ var t = function ( Node , makeset , union , find ) {
 
 	function ( name , Set ) {
 
-		console.log( name ) ;
 		test( name , t.bind( null , Set.Node , Set.makeset , Set.union , Set.find ) ) ;
 
 		var Node , makeset , union , find ;

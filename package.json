@@ -13,8 +13,6 @@
   "author": "aureooms",
   "description": "disjoint-set data structure code bricks for JavaScript",
   "devDependencies": {
-    "aureooms-js-functools": "^1.2.0",
-    "aureooms-js-itertools": "^0.2.0",
     "aureooms-node-package": "^2.0.3"
   },
   "version": "0.0.2",
