@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"aureooms-node-package": "^2.0.3"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "js/dist/disjoint-set.js",
 	"license": "AGPL-3.0",
 	"repository": {

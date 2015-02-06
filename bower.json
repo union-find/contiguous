@@ -1,5 +1,5 @@
 {
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "js/dist/disjoint-set.js",
 	"name": "aureooms-js-disjoint-set",
 	"ignore": [
