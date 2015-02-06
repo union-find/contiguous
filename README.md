@@ -18,51 +18,53 @@ disjoint-set data structure code bricks for JavaScript
 Example usage:
 
 
-	var disjointset = require( "aureooms-js-disjoint-set" ) ;
+```javascript
+var disjointset = require( "aureooms-js-disjoint-set" ) ;
 
-	// can choose between 8 different implementations
-	//   - ForestAmortizedHalving
-	//   - ForestAmortizedRecursive
-	//   - ForestAmortizedSplitting
-	//   - ForestAmortizedTwoPasses
-	//   - Forest
-	//   - LinkedList
-	//   - LinkedListWithHeadAndLength
-	//   - LinkedListWithHead
+// can choose between 8 different implementations
+//   - ForestAmortizedHalving
+//   - ForestAmortizedRecursive
+//   - ForestAmortizedSplitting
+//   - ForestAmortizedTwoPasses
+//   - Forest
+//   - LinkedList
+//   - LinkedListWithHeadAndLength
+//   - LinkedListWithHead
 
-	var makeset = disjointset.ForestAmortizedHalving.makeset ;
-	var union = disjointset.ForestAmortizedHalving.union ;
-	var find = disjointset.ForestAmortizedHalving.find ;
+var makeset = disjointset.ForestAmortizedHalving.makeset ;
+var union = disjointset.ForestAmortizedHalving.union ;
+var find = disjointset.ForestAmortizedHalving.find ;
 
-	var a , b , c , A , B , C ;
+var a , b , c , A , B , C ;
 
-	A = a = makeset( ) ;
-	B = b = makeset( ) ;
-	C = c = makeset( ) ;
+A = a = makeset( ) ;
+B = b = makeset( ) ;
+C = c = makeset( ) ;
 
-	find( a ) === find( a ) ; // true
-	find( a ) === find( b ) ; // false
-	find( a ) === find( c ) ; // false
+find( a ) === find( a ) ; // true
+find( a ) === find( b ) ; // false
+find( a ) === find( c ) ; // false
 
-	find( b ) === find( a ) ; // false
-	find( b ) === find( b ) ; // true
-	find( b ) === find( c ) ; // false
+find( b ) === find( a ) ; // false
+find( b ) === find( b ) ; // true
+find( b ) === find( c ) ; // false
 
-	find( c ) === find( a ) ; // false
-	find( c ) === find( b ) ; // false
-	find( c ) === find( c ) ; // true
+find( c ) === find( a ) ; // false
+find( c ) === find( b ) ; // false
+find( c ) === find( c ) ; // true
 
-	A = union( A , B ) ; // union( B , A ) would work too
-	delete B ;
+A = union( A , B ) ; // union( B , A ) would work too
+delete B ;
 
-	find( a ) === find( a ) ; // true
-	find( a ) === find( b ) ; // true
-	find( a ) === find( c ) ; // false
+find( a ) === find( a ) ; // true
+find( a ) === find( b ) ; // true
+find( a ) === find( c ) ; // false
 
-	find( b ) === find( a ) ; // true
-	find( b ) === find( b ) ; // true
-	find( b ) === find( c ) ; // false
+find( b ) === find( a ) ; // true
+find( b ) === find( b ) ; // true
+find( b ) === find( c ) ; // false
 
-	find( c ) === find( a ) ; // false
-	find( c ) === find( b ) ; // false
-	find( c ) === find( c ) ; // true
+find( c ) === find( a ) ; // false
+find( c ) === find( b ) ; // false
+find( c ) === find( c ) ; // true
+```
