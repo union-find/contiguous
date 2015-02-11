@@ -11,51 +11,51 @@
 <a href="https://www.npmjs.org/package/aureooms-js-disjoint-set"><img src="http://img.shields.io/npm/dm/aureooms-js-disjoint-set.svg?style=flat" alt="NPM downloads per month"></a>
 <a href="https://github.com/aureooms/js-disjoint-set/issues"><img src="http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat" alt="GitHub issues"></a></p>
 <p>Example usage:</p>
-<pre><code>var disjointset = require( &quot;aureooms-js-disjoint-set&quot; ) ;
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-disjoint-set"</span> ) ;
 
-// can choose between 8 different implementations
-//   - ForestAmortizedHalving
-//   - ForestAmortizedRecursive
-//   - ForestAmortizedSplitting
-//   - ForestAmortizedTwoPasses
-//   - Forest
-//   - LinkedList
-//   - LinkedListWithHeadAndLength
-//   - LinkedListWithHead
+<span class="hljs-comment">// can choose between 8 different implementations</span>
+<span class="hljs-comment">//   - ForestAmortizedHalving</span>
+<span class="hljs-comment">//   - ForestAmortizedRecursive</span>
+<span class="hljs-comment">//   - ForestAmortizedSplitting</span>
+<span class="hljs-comment">//   - ForestAmortizedTwoPasses</span>
+<span class="hljs-comment">//   - Forest</span>
+<span class="hljs-comment">//   - LinkedList</span>
+<span class="hljs-comment">//   - LinkedListWithHeadAndLength</span>
+<span class="hljs-comment">//   - LinkedListWithHead</span>
 
-var makeset = disjointset.ForestAmortizedHalving.makeset ;
-var union = disjointset.ForestAmortizedHalving.union ;
-var find = disjointset.ForestAmortizedHalving.find ;
+<span class="hljs-keyword">var</span> makeset = disjointset.ForestAmortizedHalving.makeset ;
+<span class="hljs-keyword">var</span> union = disjointset.ForestAmortizedHalving.union ;
+<span class="hljs-keyword">var</span> find = disjointset.ForestAmortizedHalving.find ;
 
-var a , b , c , A , B , C ;
+<span class="hljs-keyword">var</span> a , b , c , A , B , C ;
 
 A = a = makeset( ) ;
 B = b = makeset( ) ;
 C = c = makeset( ) ;
 
-find( a ) === find( a ) ; // true
-find( a ) === find( b ) ; // false
-find( a ) === find( c ) ; // false
+find( a ) === find( a ) ; <span class="hljs-comment">// true</span>
+find( a ) === find( b ) ; <span class="hljs-comment">// false</span>
+find( a ) === find( c ) ; <span class="hljs-comment">// false</span>
 
-find( b ) === find( a ) ; // false
-find( b ) === find( b ) ; // true
-find( b ) === find( c ) ; // false
+find( b ) === find( a ) ; <span class="hljs-comment">// false</span>
+find( b ) === find( b ) ; <span class="hljs-comment">// true</span>
+find( b ) === find( c ) ; <span class="hljs-comment">// false</span>
 
-find( c ) === find( a ) ; // false
-find( c ) === find( b ) ; // false
-find( c ) === find( c ) ; // true
+find( c ) === find( a ) ; <span class="hljs-comment">// false</span>
+find( c ) === find( b ) ; <span class="hljs-comment">// false</span>
+find( c ) === find( c ) ; <span class="hljs-comment">// true</span>
 
-A = union( A , B ) ; // union( B , A ) would work too
-delete B ;
+A = union( A , B ) ; <span class="hljs-comment">// union( B , A ) would work too</span>
+<span class="hljs-keyword">delete</span> B ;
 
-find( a ) === find( a ) ; // true
-find( a ) === find( b ) ; // true
-find( a ) === find( c ) ; // false
+find( a ) === find( a ) ; <span class="hljs-comment">// true</span>
+find( a ) === find( b ) ; <span class="hljs-comment">// true</span>
+find( a ) === find( c ) ; <span class="hljs-comment">// false</span>
 
-find( b ) === find( a ) ; // true
-find( b ) === find( b ) ; // true
-find( b ) === find( c ) ; // false
+find( b ) === find( a ) ; <span class="hljs-comment">// true</span>
+find( b ) === find( b ) ; <span class="hljs-comment">// true</span>
+find( b ) === find( c ) ; <span class="hljs-comment">// false</span>
 
-find( c ) === find( a ) ; // false
-find( c ) === find( b ) ; // false
-find( c ) === find( c ) ; // true</code></pre></div></div></div></div></body></html>
+find( c ) === find( a ) ; <span class="hljs-comment">// false</span>
+find( c ) === find( b ) ; <span class="hljs-comment">// false</span>
+find( c ) === find( c ) ; <span class="hljs-comment">// true</span></code></pre></div></div></div></div></body></html>
