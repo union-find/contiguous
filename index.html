@@ -10,10 +10,12 @@
 <a href="https://codeclimate.com/github/aureooms/js-disjoint-set"><img src="http://img.shields.io/codeclimate/github/aureooms/js-disjoint-set.svg?style=flat" alt="Code Climate"></a>
 <a href="https://www.npmjs.org/package/aureooms-js-disjoint-set"><img src="http://img.shields.io/npm/dm/aureooms-js-disjoint-set.svg?style=flat" alt="NPM downloads per month"></a>
 <a href="https://github.com/aureooms/js-disjoint-set/issues"><img src="http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat" alt="GitHub issues"></a></p>
+<p>Can be managed through <a href="https://github.com/bower/bower">bower</a>,
+<a href="https://github.com/componentjs/component">component</a>, or
+<a href="https://github.com/npm/npm">npm</a>.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-disjoint-set"</span> ) ;</code></pre>
 <p>Example usage:</p>
-<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-disjoint-set"</span> ) ;
-
-<span class="hljs-comment">// can choose between 8 different implementations</span>
+<pre><code class="lang-js"><span class="hljs-comment">// can choose between 8 different implementations</span>
 <span class="hljs-comment">//   - ForestAmortizedHalving</span>
 <span class="hljs-comment">//   - ForestAmortizedRecursive</span>
 <span class="hljs-comment">//   - ForestAmortizedSplitting</span>
@@ -23,11 +25,11 @@
 <span class="hljs-comment">//   - LinkedListWithHeadAndLength</span>
 <span class="hljs-comment">//   - LinkedListWithHead</span>
 
-<span class="hljs-keyword">var</span> makeset = disjointset.ForestAmortizedHalving.makeset ;
-<span class="hljs-keyword">var</span> union = disjointset.ForestAmortizedHalving.union ;
-<span class="hljs-keyword">var</span> find = disjointset.ForestAmortizedHalving.find ;
+<span class="hljs-keyword">let</span> makeset = disjointset.ForestAmortizedHalving.makeset ;
+<span class="hljs-keyword">let</span> union = disjointset.ForestAmortizedHalving.union ;
+<span class="hljs-keyword">let</span> find = disjointset.ForestAmortizedHalving.find ;
 
-<span class="hljs-keyword">var</span> a , b , c , A , B , C ;
+<span class="hljs-keyword">let</span> a , b , c , A , B , C ;
 
 A = a = makeset( ) ;
 B = b = makeset( ) ;
