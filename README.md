@@ -14,13 +14,17 @@ disjoint-set data structure code bricks for JavaScript
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-disjoint-set)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-disjoint-set/issues)
 
+Can be managed through [bower](https://github.com/bower/bower),
+[component](https://github.com/componentjs/component), or
+[npm](https://github.com/npm/npm).
+
+```js
+let disjointset = require( "aureooms-js-disjoint-set" ) ;
+```
 
 Example usage:
 
-
-```javascript
-var disjointset = require( "aureooms-js-disjoint-set" ) ;
-
+```js
 // can choose between 8 different implementations
 //   - ForestAmortizedHalving
 //   - ForestAmortizedRecursive
@@ -31,11 +35,11 @@ var disjointset = require( "aureooms-js-disjoint-set" ) ;
 //   - LinkedListWithHeadAndLength
 //   - LinkedListWithHead
 
-var makeset = disjointset.ForestAmortizedHalving.makeset ;
-var union = disjointset.ForestAmortizedHalving.union ;
-var find = disjointset.ForestAmortizedHalving.find ;
+let makeset = disjointset.ForestAmortizedHalving.makeset ;
+let union = disjointset.ForestAmortizedHalving.union ;
+let find = disjointset.ForestAmortizedHalving.find ;
 
-var a , b , c , A , B , C ;
+let a , b , c , A , B , C ;
 
 A = a = makeset( ) ;
 B = b = makeset( ) ;
