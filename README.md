@@ -1,7 +1,7 @@
 [js-disjoint-set](http://aureooms.github.io/js-disjoint-set)
 ==
 
-disjoint-set data structure code bricks for JavaScript
+Disjoint-set data structure code bricks for JavaScript.
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-disjoint-set.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-disjoint-set/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-disjoint-set)
@@ -14,8 +14,9 @@ disjoint-set data structure code bricks for JavaScript
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-disjoint-set)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-disjoint-set/issues)
 
-Can be managed through [bower](https://github.com/bower/bower),
-[component](https://github.com/componentjs/component), or
+Can be managed through [duo](https://github.com/duojs/duo),
+[component](https://github.com/componentjs/component),
+[bower](https://github.com/bower/bower), or
 [npm](https://github.com/npm/npm).
 
 ```js
