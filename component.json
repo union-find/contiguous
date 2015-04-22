@@ -4,7 +4,7 @@
 	"scripts": [
 		"js/dist/disjoint-set.js"
 	],
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "disjoint-set data structure code bricks for JavaScript",
 	"main": "js/dist/disjoint-set.js",
 	"license": "AGPL-3.0"
