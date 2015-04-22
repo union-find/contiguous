@@ -13,6 +13,7 @@ Disjoint-set data structure code bricks for JavaScript.
 [![Code Climate](http://img.shields.io/codeclimate/github/aureooms/js-disjoint-set.svg?style=flat)](https://codeclimate.com/github/aureooms/js-disjoint-set)
 [![NPM downloads per month](http://img.shields.io/npm/dm/aureooms-js-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-disjoint-set)
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-disjoint-set/issues)
+[![Inline docs](http://inch-ci.org/github/aureooms/js-disjoint-set.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-disjoint-set)
 
 Can be managed through [duo](https://github.com/duojs/duo),
 [component](https://github.com/componentjs/component),
