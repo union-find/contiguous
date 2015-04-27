@@ -15,16 +15,87 @@ Disjoint-set data structure code bricks for JavaScript.
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-disjoint-set/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-disjoint-set.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-disjoint-set)
 
-Can be managed through [duo](https://github.com/duojs/duo),
+Can be managed through [jspm](https://github.com/jspm/jspm-cli),
+[duo](https://github.com/duojs/duo),
 [component](https://github.com/componentjs/component),
-[bower](https://github.com/bower/bower), or
-[npm](https://github.com/npm/npm).
-
+[bower](https://github.com/bower/bower),
+[ender](https://github.com/ender-js/Ender),
+[jam](https://github.com/caolan/jam),
+[spm](https://github.com/spmjs/spm),
+and [npm](https://github.com/npm/npm).
+<BLANKLINE>
+## Install
+<BLANKLINE>
+### jspm
+```sh
+jspm install github:aureooms/js-disjoint-set
+# or
+jspm install npm:aureooms-js-disjoint-set
+```
+### duo
+No install step needed for duo!
+<BLANKLINE>
+### component
+```sh
+component install aureooms/js-disjoint-set
+```
+<BLANKLINE>
+### bower
+```sh
+bower install aureooms-js-disjoint-set
+```
+<BLANKLINE>
+### ender
+```sh
+ender add aureooms-js-disjoint-set
+```
+<BLANKLINE>
+### jam
+```sh
+jam install aureooms-js-disjoint-set
+```
+<BLANKLINE>
+### spm
+```sh
+spm install aureooms-js-disjoint-set --save
+```
+<BLANKLINE>
+### npm
+```sh
+npm install aureooms-js-disjoint-set --save
+```
+<BLANKLINE>
+## Require
+### jspm
+```js
+let disjointset = require( "github:aureooms/js-disjoint-set" ) ;
+// or
+import disjointset from 'aureooms-js-disjoint-set' ;
+```
+### duo
+```js
+let disjointset = require( "aureooms/js-disjoint-set" ) ;
+```
+<BLANKLINE>
+### component, ender, spm, npm
 ```js
 let disjointset = require( "aureooms-js-disjoint-set" ) ;
 ```
+<BLANKLINE>
+### bower
+The script tag exposes the global variable `disjointset`.
+```html
+<script src="bower_components/aureooms-js-disjoint-set/js/dist/disjoint-set.min.js"></script>
+```
+or use any tool mentioned [here](http://bower.io/docs/tools/).
+<BLANKLINE>
+### jam
+```js
+require( [ "aureooms-js-disjoint-set" ] , function ( disjointset ) { ... } ) ;
+```
 
-Example usage:
+
+## Use
 
 ```js
 // can choose between 8 different implementations
