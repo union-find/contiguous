@@ -404,10 +404,10 @@ if ( typeof exports === "object" ) {
 	definition( exports ) ;
 }
 else if ( typeof define === "function" && define.amd ) {
-	define( "disjointset" , [ ] , function ( ) { return definition( { } ) ; } ) ;
+	define( "aureooms-js-disjoint-set" , [ ] , function ( ) { return definition( { } ) ; } ) ;
 }
 else if ( typeof window === "object" && typeof window.document === "object" ) {
 	definition( window["disjointset"] = { } ) ;
 }
-else console.error( "unable to detect type of module to define for disjointset") ;
+else console.error( "unable to detect type of module to define for aureooms-js-disjoint-set") ;
 } )( ) ;
