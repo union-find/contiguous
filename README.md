@@ -108,9 +108,7 @@ require( [ "aureooms-js-disjoint-set" ] , function ( disjointset ) { ... } ) ;
 //   - LinkedListWithHeadAndLength
 //   - LinkedListWithHead
 
-let makeset = disjointset.ForestAmortizedHalving.makeset ;
-let union = disjointset.ForestAmortizedHalving.union ;
-let find = disjointset.ForestAmortizedHalving.find ;
+let { makeset , union , find } = disjointset.ForestAmortizedHalving ;
 
 let a , b , c , A , B , C ;
 
