@@ -3,6 +3,12 @@
 
 Disjoint-set data structure code bricks for JavaScript.
 
+```js
+find( a ) === find( b ) ; // false
+union( A , B ) ;
+find( a ) === find( b ) ; // true
+```
+
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-disjoint-set.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-disjoint-set/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-disjoint-set)
 [![Bower version](http://img.shields.io/bower/v/aureooms-js-disjoint-set.svg?style=flat)](http://bower.io/search/?q=aureooms-js-disjoint-set)
