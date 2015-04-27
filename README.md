@@ -87,7 +87,7 @@ The script tag exposes the global variable `disjointset`.
 ```html
 <script src="bower_components/aureooms-js-disjoint-set/js/dist/disjoint-set.min.js"></script>
 ```
-or use any tool mentioned [here](http://bower.io/docs/tools/).
+Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/).
 <BLANKLINE>
 ### jam
 ```js
