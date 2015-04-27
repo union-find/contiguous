@@ -13,7 +13,7 @@
 	"author": "aureooms",
 	"description": "disjoint-set data structure code bricks for JavaScript",
 	"devDependencies": {
-		"aureooms-node-package": "^2.0.3"
+		"aureooms-node-package": "^4.2.2"
 	},
 	"version": "1.0.4",
 	"main": "js/dist/disjoint-set.js",
