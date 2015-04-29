@@ -22,50 +22,38 @@ find( a ) === find( b ) ; <span class="hljs-comment">// true</span></code></pre>
 <a href="https://github.com/caolan/jam">jam</a>,
 <a href="https://github.com/spmjs/spm">spm</a>,
 and <a href="https://github.com/npm/npm">npm</a>.</p>
-<p><BLANKLINE></p>
 <h2 id="install">Install</h2>
-<p><BLANKLINE></p>
 <h3 id="jspm">jspm</h3>
 <pre><code class="lang-sh">jspm install github:aureooms/js-disjoint-set
 <span class="hljs-comment"># or</span>
 jspm install npm:aureooms-js-disjoint-set</code></pre>
 <h3 id="duo">duo</h3>
 <p>No install step needed for duo!</p>
-<p><BLANKLINE></p>
 <h3 id="component">component</h3>
 <pre><code class="lang-sh">component install aureooms/js-disjoint-set</code></pre>
-<p><BLANKLINE></p>
 <h3 id="bower">bower</h3>
 <pre><code class="lang-sh">bower install aureooms-js-disjoint-set</code></pre>
-<p><BLANKLINE></p>
 <h3 id="ender">ender</h3>
 <pre><code class="lang-sh">ender add aureooms-js-disjoint-set</code></pre>
-<p><BLANKLINE></p>
 <h3 id="jam">jam</h3>
 <pre><code class="lang-sh">jam install aureooms-js-disjoint-set</code></pre>
-<p><BLANKLINE></p>
 <h3 id="spm">spm</h3>
 <pre><code class="lang-sh">spm install aureooms-js-disjoint-set --save</code></pre>
-<p><BLANKLINE></p>
 <h3 id="npm">npm</h3>
 <pre><code class="lang-sh">npm install aureooms-js-disjoint-set --save</code></pre>
-<p><BLANKLINE></p>
 <h2 id="require">Require</h2>
 <h3 id="jspm">jspm</h3>
 <pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"github:aureooms/js-disjoint-set"</span> ) ;
 <span class="hljs-comment">// or</span>
-<span class="hljs-keyword">import</span> disjointset <span class="hljs-keyword">from</span> <span class="hljs-string">'aureooms-js-disjoint-set'</span> ;</code></pre>
+import disjointset from <span class="hljs-string">'aureooms-js-disjoint-set'</span> ;</code></pre>
 <h3 id="duo">duo</h3>
 <pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms/js-disjoint-set"</span> ) ;</code></pre>
-<p><BLANKLINE></p>
 <h3 id="component-ender-spm-npm">component, ender, spm, npm</h3>
 <pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-disjoint-set"</span> ) ;</code></pre>
-<p><BLANKLINE></p>
 <h3 id="bower">bower</h3>
 <p>The script tag exposes the global variable <code>disjointset</code>.</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-disjoint-set/js/dist/disjoint-set.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-disjoint-set/js/dist/disjoint-set.min.js"</span>&gt;</span><span class="javascript"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
 <p>Alternatively, you can use any tool mentioned <a href="http://bower.io/docs/tools/">here</a>.</p>
-<p><BLANKLINE></p>
 <h3 id="jam">jam</h3>
 <pre><code class="lang-js"><span class="hljs-built_in">require</span>( [ <span class="hljs-string">"aureooms-js-disjoint-set"</span> ] , <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">( disjointset )</span> </span>{ ... } ) ;</code></pre>
 <h2 id="use">Use</h2>
