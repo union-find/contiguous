@@ -1,8 +1,6 @@
-( function ( ) {
+(function(exports, undefined){
 
-'use strict' ;
-
-var definition = function ( exports , undefined ) {
+	'use strict';
 
 
 /* js/src/000-fundamentals */
@@ -92,7 +90,7 @@ exports.rankedtreeunion = rankedtreeunion ;
 
 /* js/src/001-adt */
 /* js/src/001-adt/Forest.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -128,9 +126,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['Forest'] = { } ) ;
+})(exports['Forest'] = {});
 /* js/src/001-adt/ForestAmortizedHalving.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -163,9 +161,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['ForestAmortizedHalving'] = { } ) ;
+})(exports['ForestAmortizedHalving'] = {});
 /* js/src/001-adt/ForestAmortizedRecursive.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -192,9 +190,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['ForestAmortizedRecursive'] = { } ) ;
+})(exports['ForestAmortizedRecursive'] = {});
 /* js/src/001-adt/ForestAmortizedSplitting.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -226,9 +224,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['ForestAmortizedSplitting'] = { } ) ;
+})(exports['ForestAmortizedSplitting'] = {});
 /* js/src/001-adt/ForestAmortizedTwoPasses.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -262,9 +260,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['ForestAmortizedTwoPasses'] = { } ) ;
+})(exports['ForestAmortizedTwoPasses'] = {});
 /* js/src/001-adt/LinkedList.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -298,9 +296,9 @@ exports.find = find ;
 exports.makeset = makeset ;
 
 
-} )( exports['LinkedList'] = { } ) ;
+})(exports['LinkedList'] = {});
 /* js/src/001-adt/LinkedListWithHead.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -332,9 +330,9 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['LinkedListWithHead'] = { } ) ;
+})(exports['LinkedListWithHead'] = {});
 /* js/src/001-adt/LinkedListWithHeadAndLength.js */
-( function ( exports ) {
+(function(exports){
 
 
 
@@ -379,7 +377,7 @@ exports.union = union ;
 exports.find = find ;
 exports.makeset = makeset ;
 
-} )( exports['LinkedListWithHeadAndLength'] = { } ) ;
+})(exports['LinkedListWithHeadAndLength'] = {});
 /* js/src/999-tools */
 /* js/src/999-tools/_prototype.js */
 
@@ -398,16 +396,4 @@ var _prototype = function ( Set , union , find ) {
 exports._prototype = _prototype ;
 
 
-return exports ;
-} ;
-if ( typeof exports === "object" ) {
-	definition( exports ) ;
-}
-else if ( typeof define === "function" && define.amd ) {
-	define( "aureooms-js-disjoint-set" , [ ] , function ( ) { return definition( { } ) ; } ) ;
-}
-else if ( typeof window === "object" && typeof window.document === "object" ) {
-	definition( window["disjointset"] = { } ) ;
-}
-else console.error( "unable to detect type of module to define for aureooms-js-disjoint-set") ;
-} )( ) ;
+})(typeof exports === 'undefined' ? this['disjointset'] = {} : exports);
