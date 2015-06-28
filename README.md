@@ -1,7 +1,8 @@
 [js-disjoint-set](http://aureooms.github.io/js-disjoint-set)
 ==
 
-Disjoint-set data structure code bricks for JavaScript.
+Disjoint-set data structure code bricks for JavaScript. Parent is
+[aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 ```js
 find( a ) === find( b ) ; // false
