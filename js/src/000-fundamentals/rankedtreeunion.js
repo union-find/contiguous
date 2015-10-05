@@ -1,19 +1,19 @@
 
-var rankedtreeunion = function ( a , b ) {
+const rankedtreeunion = function ( p , r , a , b ) {
 
-	if ( a.rank < b.rank ) {
-		a.parent = b ;
+	if ( r[a] < r[b] ) {
+		p[a] = b ;
 		return b ;
 	}
 
-	else if ( a.rank > b.rank ) {
-		b.parent = a ;
+	else if ( r[a] > r[b] ) {
+		p[b] = a ;
 		return a ;
 	}
 
 	else {
-		b.parent = a ;
-		++a.rank ;
+		p[b] = a ;
+		++r[a] ;
 		return a ;
 	}
 

@@ -1,32 +1,32 @@
 
-var Node , union , find , makeset ;
+const union = function ( p , a , b ) {
 
-Node = function ( value ) {
-	this.parent = this ;
-	this.value = value ;
-} ;
-
-union = function ( a , b ) {
-
-	find( b ).parent = find( a ) ;
+	p[ find( p , b ) ] = find( p , a ) ;
 
 	return a ;
 
 } ;
 
-find = function ( node ) {
+const find = function ( p , x ) {
 
-	while ( node !== node.parent ) {
-		node = node.parent ;
-	}
+	while ( x !== p[x] ) x = p[x] ;
 
-	return node ;
+	return x ;
 
 } ;
 
-makeset = _makeset( Node ) ;
+const Forest = function ( n ) {
+	this.p = makesets( n ) ;
+} ;
 
-exports.Node = Node ;
+Forest.prototype.union = function ( a , b ) {
+	return union( this.p , a , b ) ;
+} ;
+
+Forest.prototype.find = function ( x ) {
+	return find( this.p , x ) ;
+} ;
+
 exports.union = union ;
 exports.find = find ;
-exports.makeset = makeset ;
+exports.Forest = Forest ;

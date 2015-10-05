@@ -13,5 +13,6 @@
 		]
 	},
 	"name": "fixed-disjoint-set",
-	"debug": false
+	"debug": false,
+	"babel": true
 }

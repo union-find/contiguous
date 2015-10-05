@@ -1,413 +1,205 @@
-( function ( ) {
+'use strict';
 
-'use strict' ;
+(function () {
 
-var definition = function ( exports , undefined ) {
+	'use strict';
 
+	var definition = function definition(exports, undefined) {
 
-/* js/src/000-fundamentals */
-/* js/src/000-fundamentals/LinkedListNode.js */
+		/* js/src/000-fundamentals */
+		/* js/src/000-fundamentals/_RankedTreeForest.js */
 
-var LinkedListNode = function ( value ) {
-	this.back = this ;
-	this.next = null ;
-	this.value = value ;
-} ;
+		var _RankedTreeForest = function _RankedTreeForest(union, find) {
 
-exports.LinkedListNode = LinkedListNode ;
+			var Forest = function Forest(n) {
+				this.p = makesets(n);
+				this.r = makeranks(n);
+			};
 
+			Forest.prototype.union = function (a, b) {
+				return union(this.p, this.r, a, b);
+			};
 
-/* js/src/000-fundamentals/RankedTreeNode.js */
+			Forest.prototype.find = function (x) {
+				return find(this.p, x);
+			};
 
-var RankedTreeNode = function ( value ) {
-	this.rank = 0 ;
-	this.parent = this ;
-	this.value = value ;
-} ;
+			return Forest;
+		};
 
-exports.RankedTreeNode = RankedTreeNode ;
+		exports._RankedTreeForest = _RankedTreeForest;
 
+		/* js/src/000-fundamentals/makeranks.js */
+		var makeranks = function makeranks(n) {
 
-/* js/src/000-fundamentals/_makeset.js */
+			var r = new Array(n);
 
-var _makeset = function ( Node ) {
+			for (var i = 0; i < n; ++i) {
+				r[i] = 0;
+			}return r;
+		};
 
-	return function ( value ) {
+		exports.makeranks = makeranks;
 
-		return new Node( value ) ;
+		/* js/src/000-fundamentals/makesets.js */
+		var makesets = function makesets(n) {
 
-	} ;
+			var p = new Array(n);
 
-} ;
+			for (var i = 0; i < n; ++i) {
+				p[i] = i;
+			}return p;
+		};
 
-exports._makeset = _makeset ;
+		exports.makesets = makesets;
 
-/* js/src/000-fundamentals/linkedlistbackfind.js */
+		/* js/src/000-fundamentals/rankedtreeunion.js */
 
-var linkedlistbackfind = function ( node ) {
+		var rankedtreeunion = function rankedtreeunion(p, r, a, b) {
 
-	return node.back ;
+			if (r[a] < r[b]) {
+				p[a] = b;
+				return b;
+			} else if (r[a] > r[b]) {
+				p[b] = a;
+				return a;
+			} else {
+				p[b] = a;
+				++r[a];
+				return a;
+			}
+		};
 
-} ;
+		exports.rankedtreeunion = rankedtreeunion;
 
-exports.linkedlistbackfind = linkedlistbackfind ;
+		/* js/src/001-adt */
+		/* js/src/001-adt/Forest.js */
+		(function (exports) {
 
+			var union = function union(p, a, b) {
 
-/* js/src/000-fundamentals/linkedlistmakeset.js */
+				p[find(p, b)] = find(p, a);
 
-var linkedlistmakeset = _makeset( LinkedListNode ) ;
+				return a;
+			};
 
-exports.linkedlistmakeset = linkedlistmakeset ;
+			var find = function find(p, x) {
 
+				while (x !== p[x]) x = p[x];
 
-/* js/src/000-fundamentals/rankedtreemakeset.js */
+				return x;
+			};
 
-var rankedtreemakeset = _makeset( RankedTreeNode ) ;
+			var Forest = function Forest(n) {
+				this.p = makesets(n);
+			};
 
-exports.rankedtreemakeset = rankedtreemakeset ;
+			Forest.prototype.union = function (a, b) {
+				return union(this.p, a, b);
+			};
 
-/* js/src/000-fundamentals/rankedtreeunion.js */
+			Forest.prototype.find = function (x) {
+				return find(this.p, x);
+			};
 
-var rankedtreeunion = function ( a , b ) {
+			exports.union = union;
+			exports.find = find;
+			exports.Forest = Forest;
+		})(exports['Forest'] = {});
+		/* js/src/001-adt/ForestAmortizedHalving.js */
+		(function (exports) {
 
-	if ( a.rank < b.rank ) {
-		a.parent = b ;
-		return b ;
-	}
+			var union = rankedtreeunion;
 
-	else if ( a.rank > b.rank ) {
-		b.parent = a ;
-		return a ;
-	}
+			var find = function find(p, node) {
 
-	else {
-		b.parent = a ;
-		++a.rank ;
-		return a ;
-	}
+				var parent = p[node];
 
-} ;
+				for (; p[parent] !== parent; parent = p[node]) {
 
-exports.rankedtreeunion = rankedtreeunion ;
+					p[node] = p[parent];
+					node = p[node];
+				}
 
-/* js/src/001-adt */
-/* js/src/001-adt/Forest.js */
-( function ( exports ) {
+				return parent;
+			};
 
+			exports.union = union;
+			exports.find = find;
+			exports.Forest = _RankedTreeForest(union, find);
+		})(exports['ForestAmortizedHalving'] = {});
+		/* js/src/001-adt/ForestAmortizedRecursive.js */
+		(function (exports) {
 
+			var union = rankedtreeunion;
 
-var Node , union , find , makeset ;
+			var find = function find(p, node) {
 
-Node = function ( value ) {
-	this.parent = this ;
-	this.value = value ;
-} ;
+				if (node !== p[node]) p[node] = find(p, p[node]);
 
-union = function ( a , b ) {
+				return p[node];
+			};
 
-	find( b ).parent = find( a ) ;
+			exports.union = union;
+			exports.find = find;
+			exports.Forest = _RankedTreeForest(union, find);
+		})(exports['ForestAmortizedRecursive'] = {});
+		/* js/src/001-adt/ForestAmortizedSplitting.js */
+		(function (exports) {
 
-	return a ;
+			var union = rankedtreeunion;
 
-} ;
+			var find = function find(p, node) {
 
-find = function ( node ) {
+				var parent = p[node];
 
-	while ( node !== node.parent ) {
-		node = node.parent ;
-	}
+				for (; p[parent] !== parent; parent = p[node]) {
 
-	return node ;
+					p[node] = p[parent];
+					node = parent;
+				}
 
-} ;
+				return parent;
+			};
 
-makeset = _makeset( Node ) ;
+			exports.union = union;
+			exports.find = find;
+			exports.Forest = _RankedTreeForest(union, find);
+		})(exports['ForestAmortizedSplitting'] = {});
+		/* js/src/001-adt/ForestAmortizedTwoPasses.js */
+		(function (exports) {
 
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
+			var union = rankedtreeunion;
 
-} )( exports['Forest'] = { } ) ;
-/* js/src/001-adt/ForestAmortizedHalving.js */
-( function ( exports ) {
+			var find = function find(p, node) {
 
+				var it = node;
 
+				for (; it !== p[it]; it = p[it]);
 
-var Node , union , find , makeset ;
+				while (p[node] !== it) {
 
-Node = RankedTreeNode ;
+					var _parent = p[node];
+					p[node] = it;
+					node = _parent;
+				}
 
-union = rankedtreeunion ;
+				return it;
+			};
 
-find = function ( node ) {
-
-	var parent ;
-
-	for ( parent = node.parent ; parent.parent !== parent ; parent = node.parent ) {
-
-		node.parent = parent.parent ;
-		node = node.parent ;
-
-	}
-
-	return parent ;
-
-
-} ;
-
-makeset = rankedtreemakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['ForestAmortizedHalving'] = { } ) ;
-/* js/src/001-adt/ForestAmortizedRecursive.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = RankedTreeNode ;
-
-union = rankedtreeunion ;
-
-find = function ( node ) {
-
-	if ( node !== node.parent ) {
-		node.parent = find( node.parent ) ;
-	}
-
-	return node.parent ;
-
-} ;
-
-makeset = rankedtreemakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['ForestAmortizedRecursive'] = { } ) ;
-/* js/src/001-adt/ForestAmortizedSplitting.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = RankedTreeNode ;
-
-union = rankedtreeunion ;
-
-find = function ( node ) {
-
-	var parent ;
-
-	for ( parent = node.parent ; parent.parent !== parent ; parent = node.parent ) {
-
-		node.parent = parent.parent ;
-		node = parent ;
-
-	}
-
-	return parent ;
-
-} ;
-
-makeset = rankedtreemakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['ForestAmortizedSplitting'] = { } ) ;
-/* js/src/001-adt/ForestAmortizedTwoPasses.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = RankedTreeNode ;
-
-union = rankedtreeunion ;
-
-find = function ( node ) {
-
-	var it , parent ;
-
-	for ( it = node ; it !== it.parent ; it = it.parent ) ;
-
-	for ( ; node.parent !== it ; node = parent ) {
-
-		parent = node.parent ;
-		node.parent = it ;
-
-	}
-
-	return it ;
-
-} ;
-
-makeset = rankedtreemakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['ForestAmortizedTwoPasses'] = { } ) ;
-/* js/src/001-adt/LinkedList.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = LinkedListNode ;
-
-union = function ( a , b ) {
-
-	a.back.next = b ;
-	a.back = b.back ;
-	return a ;
-
-} ;
-
-find = function ( node ) {
-
-	while ( node.next !== null ) {
-		node = node.next ;
-	}
-
-	return node ;
-
-} ;
-
-makeset = linkedlistmakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-
-} )( exports['LinkedList'] = { } ) ;
-/* js/src/001-adt/LinkedListWithHead.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = LinkedListNode ;
-
-union = function ( a , b ) {
-
-	var it ;
-
-	a.back.next = b ;
-	a.back = b.back ;
-
-	for ( it = a.next ; it !== b ; it = it.next ) {
-		it.back = b.back ;
-	}
-
-	return a ;
-
-} ;
-
-find = linkedlistbackfind ;
-
-makeset = linkedlistmakeset ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['LinkedListWithHead'] = { } ) ;
-/* js/src/001-adt/LinkedListWithHeadAndLength.js */
-( function ( exports ) {
-
-
-
-var Node , union , find , makeset ;
-
-Node = function ( value ) {
-	this.length = 1 ;
-	this.back = this ;
-	this.next = null ;
-	this.value = value ;
-} ;
-
-union = function ( a , b ) {
-
-	var it ;
-
-	if ( a.length < b.length ) {
-		it =  a ;
-		a  =  b ;
-		b  = it ;
-	}
-
-	a.back.next = b ;
-	a.back = b.back ;
-
-	for ( it = a.next ; it !== b ; it = it.next ) {
-		it.back = b.back ;
-	}
-
-	a.length += b.length ;
-
-	return a ;
-
-} ;
-
-find = linkedlistbackfind ;
-
-makeset = _makeset( Node ) ;
-
-exports.Node = Node ;
-exports.union = union ;
-exports.find = find ;
-exports.makeset = makeset ;
-
-} )( exports['LinkedListWithHeadAndLength'] = { } ) ;
-/* js/src/999-tools */
-/* js/src/999-tools/_prototype.js */
-
-var _prototype = function ( Set , union , find ) {
-
-	Set.prototype.union = function ( other ) {
-		return union( this , other ) ;
-	} ;
-
-	Set.prototype.find = function ( ) {
-		return find( this ) ;
-	} ;
-
-} ;
-
-exports._prototype = _prototype ;
-
-
-return exports ;
-} ;
-if ( typeof exports === "object" ) {
-	definition( exports ) ;
-}
-else if ( typeof define === "function" && define.amd ) {
-	define( "aureooms-js-fixed-disjoint-set" , [ ] , function ( ) { return definition( { } ) ; } ) ;
-}
-else if ( typeof window === "object" && typeof window.document === "object" ) {
-	definition( window["fixeddisjointset"] = { } ) ;
-}
-else console.error( "unable to detect type of module to define for aureooms-js-fixed-disjoint-set") ;
-} )( ) ;
+			exports.union = union;
+			exports.find = find;
+			exports.Forest = _RankedTreeForest(union, find);
+		})(exports['ForestAmortizedTwoPasses'] = {});
+		return exports;
+	};
+	if (typeof exports === "object") {
+		definition(exports);
+	} else if (typeof define === "function" && define.amd) {
+		define("aureooms-js-fixed-disjoint-set", [], function () {
+			return definition({});
+		});
+	} else if (typeof window === "object" && typeof window.document === "object") {
+		definition(window["fixeddisjointset"] = {});
+	} else console.error("unable to detect type of module to define for aureooms-js-fixed-disjoint-set");
+})();

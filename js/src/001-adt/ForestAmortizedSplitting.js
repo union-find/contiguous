@@ -1,17 +1,13 @@
 
-var Node , union , find , makeset ;
+const union = rankedtreeunion ;
 
-Node = RankedTreeNode ;
+const find = function ( p , node ) {
 
-union = rankedtreeunion ;
+	let parent = p[node] ;
 
-find = function ( node ) {
+	for ( ; p[parent] !== parent ; parent = p[node] ) {
 
-	var parent ;
-
-	for ( parent = node.parent ; parent.parent !== parent ; parent = node.parent ) {
-
-		node.parent = parent.parent ;
+		p[node] = p[parent] ;
 		node = parent ;
 
 	}
@@ -20,9 +16,7 @@ find = function ( node ) {
 
 } ;
 
-makeset = rankedtreemakeset ;
-
-exports.Node = Node ;
 exports.union = union ;
 exports.find = find ;
-exports.makeset = makeset ;
+exports.Forest = _RankedTreeForest( union , find ) ;
+
