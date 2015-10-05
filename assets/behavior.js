@@ -13,7 +13,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "commentsOnly": true,
           "name": "Markdown"
         },
-        "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/README.md",
+        "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/README.md",
         "projectPath": "README.md",
         "targetPath": "index",
         "pageTitle": "index",
@@ -177,7 +177,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/LinkedListNode.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/LinkedListNode.js",
             "projectPath": "js/src/000-fundamentals/LinkedListNode.js",
             "targetPath": "000-fundamentals/LinkedListNode",
             "pageTitle": "000-fundamentals/LinkedListNode",
@@ -197,7 +197,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/RankedTreeNode.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/RankedTreeNode.js",
             "projectPath": "js/src/000-fundamentals/RankedTreeNode.js",
             "targetPath": "000-fundamentals/RankedTreeNode",
             "pageTitle": "000-fundamentals/RankedTreeNode",
@@ -217,7 +217,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/_makeset.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/_makeset.js",
             "projectPath": "js/src/000-fundamentals/_makeset.js",
             "targetPath": "000-fundamentals/_makeset",
             "pageTitle": "000-fundamentals/_makeset",
@@ -237,7 +237,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/linkedlistbackfind.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/linkedlistbackfind.js",
             "projectPath": "js/src/000-fundamentals/linkedlistbackfind.js",
             "targetPath": "000-fundamentals/linkedlistbackfind",
             "pageTitle": "000-fundamentals/linkedlistbackfind",
@@ -257,7 +257,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/linkedlistmakeset.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/linkedlistmakeset.js",
             "projectPath": "js/src/000-fundamentals/linkedlistmakeset.js",
             "targetPath": "000-fundamentals/linkedlistmakeset",
             "pageTitle": "000-fundamentals/linkedlistmakeset",
@@ -277,7 +277,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/rankedtreemakeset.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/rankedtreemakeset.js",
             "projectPath": "js/src/000-fundamentals/rankedtreemakeset.js",
             "targetPath": "000-fundamentals/rankedtreemakeset",
             "pageTitle": "000-fundamentals/rankedtreemakeset",
@@ -297,7 +297,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/000-fundamentals/rankedtreeunion.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/rankedtreeunion.js",
             "projectPath": "js/src/000-fundamentals/rankedtreeunion.js",
             "targetPath": "000-fundamentals/rankedtreeunion",
             "pageTitle": "000-fundamentals/rankedtreeunion",
@@ -327,7 +327,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/Forest.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/Forest.js",
             "projectPath": "js/src/001-adt/Forest.js",
             "targetPath": "001-adt/Forest",
             "pageTitle": "001-adt/Forest",
@@ -347,7 +347,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedHalving.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/ForestAmortizedHalving.js",
             "projectPath": "js/src/001-adt/ForestAmortizedHalving.js",
             "targetPath": "001-adt/ForestAmortizedHalving",
             "pageTitle": "001-adt/ForestAmortizedHalving",
@@ -367,7 +367,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedRecursive.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/ForestAmortizedRecursive.js",
             "projectPath": "js/src/001-adt/ForestAmortizedRecursive.js",
             "targetPath": "001-adt/ForestAmortizedRecursive",
             "pageTitle": "001-adt/ForestAmortizedRecursive",
@@ -387,7 +387,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedSplitting.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/ForestAmortizedSplitting.js",
             "projectPath": "js/src/001-adt/ForestAmortizedSplitting.js",
             "targetPath": "001-adt/ForestAmortizedSplitting",
             "pageTitle": "001-adt/ForestAmortizedSplitting",
@@ -407,7 +407,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/ForestAmortizedTwoPasses.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/ForestAmortizedTwoPasses.js",
             "projectPath": "js/src/001-adt/ForestAmortizedTwoPasses.js",
             "targetPath": "001-adt/ForestAmortizedTwoPasses",
             "pageTitle": "001-adt/ForestAmortizedTwoPasses",
@@ -427,7 +427,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedList.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/LinkedList.js",
             "projectPath": "js/src/001-adt/LinkedList.js",
             "targetPath": "001-adt/LinkedList",
             "pageTitle": "001-adt/LinkedList",
@@ -447,7 +447,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedListWithHead.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/LinkedListWithHead.js",
             "projectPath": "js/src/001-adt/LinkedListWithHead.js",
             "targetPath": "001-adt/LinkedListWithHead",
             "pageTitle": "001-adt/LinkedListWithHead",
@@ -467,7 +467,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/001-adt/LinkedListWithHeadAndLength.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/001-adt/LinkedListWithHeadAndLength.js",
             "projectPath": "js/src/001-adt/LinkedListWithHeadAndLength.js",
             "targetPath": "001-adt/LinkedListWithHeadAndLength",
             "pageTitle": "001-adt/LinkedListWithHeadAndLength",
@@ -497,7 +497,7 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-disjoint-set/js/src/999-tools/_prototype.js",
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/999-tools/_prototype.js",
             "projectPath": "js/src/999-tools/_prototype.js",
             "targetPath": "999-tools/_prototype",
             "pageTitle": "999-tools/_prototype",
