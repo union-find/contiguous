@@ -5,13 +5,13 @@
 		"main": [
 			"js",
 			"dist",
-			"disjoint-set.js"
+			"fixed-disjoint-set.js"
 		],
 		"test": [
 			"test",
 			"js"
 		]
 	},
-	"name": "disjoint-set",
+	"name": "fixed-disjoint-set",
 	"debug": false
 }

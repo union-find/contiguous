@@ -1,40 +1,39 @@
 {
 	"bugs": {
-		"url": "https://github.com/aureooms/js-disjoint-set/issues"
+		"url": "https://github.com/aureooms/js-fixed-disjoint-set/issues"
 	},
 	"dependencies": {},
-	"name": "aureooms-js-disjoint-set",
+	"name": "aureooms-js-fixed-disjoint-set",
 	"scripts": {
 		"doc": "./node_modules/.bin/groc",
 		"build": "./node_modules/.bin/aureooms-node-package-build",
 		"test": "./node_modules/.bin/aureooms-node-package-test"
 	},
-	"homepage": "http://aureooms.github.io/js-disjoint-set/",
+	"homepage": "http://aureooms.github.io/js-fixed-disjoint-set/",
 	"author": "aureooms",
-	"description": "disjoint-set data structure code bricks for JavaScript",
+	"description": "fixed disjoint set code bricks for JavaScript",
 	"devDependencies": {
 		"aureooms-node-package": "^4.2.3"
 	},
 	"version": "1.1.4",
-	"main": "js/dist/disjoint-set.js",
+	"main": "js/dist/fixed-disjoint-set.js",
 	"license": "AGPL-3.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/aureooms/js-disjoint-set.git"
+		"url": "https://github.com/aureooms/js-fixed-disjoint-set.git"
 	},
 	"keywords": [
 		"bricks",
 		"data",
 		"disjoint",
-		"find",
+		"ender",
+		"fixed",
 		"javascript",
 		"js",
-		"merge",
 		"set",
-		"structures",
-		"union"
+		"structures"
 	],
 	"spm": {
-		"main": "js/dist/disjoint-set.js"
+		"main": "js/dist/fixed-disjoint-set.js"
 	}
 }

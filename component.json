@@ -1,11 +1,11 @@
 {
-	"name": "aureooms-js-disjoint-set",
-	"repo": "aureooms/js-disjoint-set",
+	"name": "aureooms-js-fixed-disjoint-set",
+	"repo": "aureooms/js-fixed-disjoint-set",
 	"scripts": [
-		"js/dist/disjoint-set.js"
+		"js/dist/fixed-disjoint-set.js"
 	],
 	"version": "1.1.4",
-	"description": "disjoint-set data structure code bricks for JavaScript",
-	"main": "js/dist/disjoint-set.js",
+	"description": "fixed disjoint set code bricks for JavaScript",
+	"main": "js/dist/fixed-disjoint-set.js",
 	"license": "AGPL-3.0"
 }
