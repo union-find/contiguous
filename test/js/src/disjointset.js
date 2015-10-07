@@ -1,18 +1,18 @@
 
-var t = function ( Forest ) {
+var t = function ( Universe ) {
 
-	var a , b , c , d , e , A , B , C , D , E , l , o , F ;
+	var a , b , c , d , e , A , B , C , D , E , l , o , U ;
 
 	l = function ( x , y ) {
-		ok( F.find( x ) === F.find( y ) ) ;
+		ok( U.find( x ) === U.find( y ) ) ;
 	} ;
 
 	o = function ( x , y ) {
-		ok( F.find( x ) !== F.find( y ) ) ;
+		ok( U.find( x ) !== U.find( y ) ) ;
 	} ;
 
 	// 1st scenario
-	F = new Forest( 5 ) ;
+	U = new Universe( 5 ) ;
 
 	A = a = 0 ;
 	B = b = 1 ;
@@ -26,7 +26,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; o( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	o( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( A , E ) ;
+	A = U.union( A , E ) ;
 	delete E ;
 
 	l( a , a ) ; o( b , a ) ; o( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -35,7 +35,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; o( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	B = F.union( D , B ) ;
+	B = U.union( D , B ) ;
 	delete D ;
 
 	l( a , a ) ; o( b , a ) ; o( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -44,7 +44,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; l( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( C , A ) ;
+	A = U.union( C , A ) ;
 	delete C ;
 
 	l( a , a ) ; o( b , a ) ; l( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -53,7 +53,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; l( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; l( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( B , A ) ;
+	A = U.union( B , A ) ;
 	delete B ;
 
 	l( a , a ) ; l( b , a ) ; l( c , a ) ; l( d , a ) ; l( e , a ) ;
@@ -63,7 +63,7 @@ var t = function ( Forest ) {
 	l( a , e ) ; l( b , e ) ; l( c , e ) ; l( d , e ) ; l( e , e ) ;
 
 	// 2nd scenario
-	F = new Forest( 5 ) ;
+	U = new Universe( 5 ) ;
 
 	A = a = 0 ;
 	B = b = 1 ;
@@ -77,7 +77,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; o( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	o( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( A , E ) ;
+	A = U.union( A , E ) ;
 	delete E ;
 
 	l( a , a ) ; o( b , a ) ; o( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -86,7 +86,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; o( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	B = F.union( D , B ) ;
+	B = U.union( D , B ) ;
 	delete D ;
 
 	l( a , a ) ; o( b , a ) ; o( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -95,7 +95,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; l( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; o( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( A , C ) ;
+	A = U.union( A , C ) ;
 	delete C ;
 
 	l( a , a ) ; o( b , a ) ; l( c , a ) ; o( d , a ) ; l( e , a ) ;
@@ -104,7 +104,7 @@ var t = function ( Forest ) {
 	o( a , d ) ; l( b , d ) ; o( c , d ) ; l( d , d ) ; o( e , d ) ;
 	l( a , e ) ; o( b , e ) ; l( c , e ) ; o( d , e ) ; l( e , e ) ;
 
-	A = F.union( B , A ) ;
+	A = U.union( B , A ) ;
 	delete B ;
 
 	l( a , a ) ; l( b , a ) ; l( c , a ) ; l( d , a ) ; l( e , a ) ;
@@ -116,6 +116,9 @@ var t = function ( Forest ) {
 } ;
 
 [
+	[ "LinkedList" , fixeddisjointset.LinkedList ] ,
+	[ "LinkedListWithHead" , fixeddisjointset.LinkedListWithHead ] ,
+	[ "LinkedListWithHeadAndLength" , fixeddisjointset.LinkedListWithHeadAndLength ] ,
 	[ "Forest" , fixeddisjointset.Forest ] ,
 	[ "ForestAmortizedRecursive" , fixeddisjointset.ForestAmortizedRecursive ] ,
 	[ "ForestAmortizedTwoPasses" , fixeddisjointset.ForestAmortizedTwoPasses ] ,
@@ -124,9 +127,9 @@ var t = function ( Forest ) {
 ]
 .forEach( Function.prototype.apply.bind(
 
-	function ( name , Forest ) {
+	function ( name , DisjointSet ) {
 
-		test( name , t.bind( null , Forest.Forest ) ) ;
+		test( name , t.bind( null , DisjointSet.Universe ) ) ;
 
 	} , null
 

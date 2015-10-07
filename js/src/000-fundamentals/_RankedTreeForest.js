@@ -1,21 +1,21 @@
 
-const _RankedTreeForest = function ( union , find ) {
+const _RankedTreeUniverse = function ( union , find ) {
 
-	const Forest = function ( n ) {
-		this.p = makesets( n ) ;
-		this.r = makeranks( n ) ;
+	const Universe = function ( n ) {
+		this.p = selfs( n ) ;
+		this.r = zeros( n ) ;
 	} ;
 
-	Forest.prototype.union = function ( a , b ) {
+	Universe.prototype.union = function ( a , b ) {
 		return union( this.p , this.r , a , b ) ;
 	} ;
 
-	Forest.prototype.find = function ( x ) {
+	Universe.prototype.find = function ( x ) {
 		return find( this.p , x ) ;
 	} ;
 
-	return Forest ;
+	return Universe ;
 
 } ;
 
-exports._RankedTreeForest = _RankedTreeForest ;
+exports._RankedTreeUniverse = _RankedTreeUniverse ;

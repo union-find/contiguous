@@ -15,18 +15,18 @@ const find = function ( p , x ) {
 
 } ;
 
-const Forest = function ( n ) {
-	this.p = makesets( n ) ;
+const Universe = function ( n ) {
+	this.p = selfs( n ) ;
 } ;
 
-Forest.prototype.union = function ( a , b ) {
+Universe.prototype.union = function ( a , b ) {
 	return union( this.p , a , b ) ;
 } ;
 
-Forest.prototype.find = function ( x ) {
+Universe.prototype.find = function ( x ) {
 	return find( this.p , x ) ;
 } ;
 
 exports.union = union ;
 exports.find = find ;
-exports.Forest = Forest ;
+exports.Universe = Universe ;

@@ -9,49 +9,50 @@
 		/* js/src/000-fundamentals */
 		/* js/src/000-fundamentals/_RankedTreeForest.js */
 
-		var _RankedTreeForest = function _RankedTreeForest(union, find) {
+		var _RankedTreeUniverse = function _RankedTreeUniverse(union, find) {
 
-			var Forest = function Forest(n) {
-				this.p = makesets(n);
-				this.r = makeranks(n);
+			var Universe = function Universe(n) {
+				this.p = selfs(n);
+				this.r = zeros(n);
 			};
 
-			Forest.prototype.union = function (a, b) {
+			Universe.prototype.union = function (a, b) {
 				return union(this.p, this.r, a, b);
 			};
 
-			Forest.prototype.find = function (x) {
+			Universe.prototype.find = function (x) {
 				return find(this.p, x);
 			};
 
-			return Forest;
+			return Universe;
 		};
 
-		exports._RankedTreeForest = _RankedTreeForest;
+		exports._RankedTreeUniverse = _RankedTreeUniverse;
 
-		/* js/src/000-fundamentals/makeranks.js */
-		var makeranks = function makeranks(n) {
+		/* js/src/000-fundamentals/nulls.js */
 
-			var r = new Array(n);
+		var nulls = function nulls(n) {
+
+			var a = new Array(n);
 
 			for (var i = 0; i < n; ++i) {
-				r[i] = 0;
-			}return r;
+				a[i] = -1;
+			}return a;
 		};
 
-		exports.makeranks = makeranks;
+		exports.nulls = nulls;
 
-		/* js/src/000-fundamentals/makesets.js */
-		var makesets = function makesets(n) {
+		/* js/src/000-fundamentals/ones.js */
+		var ones = function ones(n) {
 
-			var p = new Array(n);
+			var a = new Array(n);
 
 			for (var i = 0; i < n; ++i) {
-				p[i] = i;
-			}return p;
+				a[i] = 1;
+			}return a;
 		};
 
-		exports.makesets = makesets;
+		exports.ones = ones;
 
 		/* js/src/000-fundamentals/rankedtreeunion.js */
 
@@ -72,6 +73,30 @@
 
 		exports.rankedtreeunion = rankedtreeunion;
 
+		/* js/src/000-fundamentals/selfs.js */
+		var selfs = function selfs(n) {
+
+			var a = new Array(n);
+
+			for (var i = 0; i < n; ++i) {
+				a[i] = i;
+			}return a;
+		};
+
+		exports.selfs = selfs;
+
+		/* js/src/000-fundamentals/zeros.js */
+		var zeros = function zeros(n) {
+
+			var a = new Array(n);
+
+			for (var i = 0; i < n; ++i) {
+				a[i] = 0;
+			}return a;
+		};
+
+		exports.zeros = zeros;
+
 		/* js/src/001-adt */
 		/* js/src/001-adt/Forest.js */
 		(function (exports) {
@@ -90,21 +115,21 @@
 				return x;
 			};
 
-			var Forest = function Forest(n) {
-				this.p = makesets(n);
+			var Universe = function Universe(n) {
+				this.p = selfs(n);
 			};
 
-			Forest.prototype.union = function (a, b) {
+			Universe.prototype.union = function (a, b) {
 				return union(this.p, a, b);
 			};
 
-			Forest.prototype.find = function (x) {
+			Universe.prototype.find = function (x) {
 				return find(this.p, x);
 			};
 
 			exports.union = union;
 			exports.find = find;
-			exports.Forest = Forest;
+			exports.Universe = Universe;
 		})(exports['Forest'] = {});
 		/* js/src/001-adt/ForestAmortizedHalving.js */
 		(function (exports) {
@@ -126,7 +151,7 @@
 
 			exports.union = union;
 			exports.find = find;
-			exports.Forest = _RankedTreeForest(union, find);
+			exports.Universe = _RankedTreeUniverse(union, find);
 		})(exports['ForestAmortizedHalving'] = {});
 		/* js/src/001-adt/ForestAmortizedRecursive.js */
 		(function (exports) {
@@ -142,7 +167,7 @@
 
 			exports.union = union;
 			exports.find = find;
-			exports.Forest = _RankedTreeForest(union, find);
+			exports.Universe = _RankedTreeUniverse(union, find);
 		})(exports['ForestAmortizedRecursive'] = {});
 		/* js/src/001-adt/ForestAmortizedSplitting.js */
 		(function (exports) {
@@ -164,7 +189,7 @@
 
 			exports.union = union;
 			exports.find = find;
-			exports.Forest = _RankedTreeForest(union, find);
+			exports.Universe = _RankedTreeUniverse(union, find);
 		})(exports['ForestAmortizedSplitting'] = {});
 		/* js/src/001-adt/ForestAmortizedTwoPasses.js */
 		(function (exports) {
@@ -189,8 +214,119 @@
 
 			exports.union = union;
 			exports.find = find;
-			exports.Forest = _RankedTreeForest(union, find);
+			exports.Universe = _RankedTreeUniverse(union, find);
 		})(exports['ForestAmortizedTwoPasses'] = {});
+		/* js/src/001-adt/LinkedList.js */
+		(function (exports) {
+
+			var union = function union(back, next, a, b) {
+
+				next[back[a]] = b;
+				back[a] = back[b];
+				return a;
+			};
+
+			var find = function find(next, node) {
+
+				while (next[node] !== -1) node = next[node];
+
+				return node;
+			};
+
+			var Universe = function Universe(n) {
+				this.back = selfs(n);
+				this.next = nulls(n);
+			};
+
+			Universe.prototype.union = function (a, b) {
+				return union(this.back, this.next, a, b);
+			};
+
+			Universe.prototype.find = function (node) {
+				return find(this.next, node);
+			};
+
+			exports.union = union;
+			exports.find = find;
+			exports.Universe = Universe;
+		})(exports['LinkedList'] = {});
+		/* js/src/001-adt/LinkedListWithHead.js */
+		(function (exports) {
+
+			var union = function union(back, next, a, b) {
+
+				next[back[a]] = b;
+				back[a] = back[b];
+
+				for (var c = next[a]; c !== b; c = next[c]) {
+					back[c] = back[b];
+				}return a;
+			};
+
+			var find = function find(back, node) {
+				return back[node];
+			};
+
+			var Universe = function Universe(n) {
+				this.back = selfs(n);
+				this.next = nulls(n);
+			};
+
+			Universe.prototype.union = function (a, b) {
+				return union(this.back, this.next, a, b);
+			};
+
+			Universe.prototype.find = function (node) {
+				return find(this.back, node);
+			};
+
+			exports.union = union;
+			exports.find = find;
+			exports.Universe = Universe;
+		})(exports['LinkedListWithHead'] = {});
+		/* js/src/001-adt/LinkedListWithHeadAndLength.js */
+		(function (exports) {
+
+			var union = function union(back, next, length, a, b) {
+
+				if (length[a] < length[b]) {
+					var c = a;
+					a = b;
+					b = c;
+				}
+
+				next[back[a]] = b;
+				back[a] = back[b];
+
+				for (var c = next[a]; c !== b; c = next[c]) {
+					back[c] = back[b];
+				}length[a] += length[b];
+
+				return a;
+			};
+
+			var find = function find(back, node) {
+				return back[node];
+			};
+
+			var Universe = function Universe(n) {
+				this.back = selfs(n);
+				this.next = nulls(n);
+				this._length = ones(n);
+			};
+
+			Universe.prototype.union = function (a, b) {
+				return union(this.back, this.next, this._length, a, b);
+			};
+
+			Universe.prototype.find = function (node) {
+				return find(this.back, node);
+			};
+
+			exports.union = union;
+			exports.find = find;
+			exports.Universe = Universe;
+		})(exports['LinkedListWithHeadAndLength'] = {});
 		return exports;
 	};
 	if (typeof exports === "object") {

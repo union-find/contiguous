@@ -11,5 +11,4 @@ const find = function ( p , node ) {
 
 exports.union = union ;
 exports.find = find ;
-exports.Forest = _RankedTreeForest( union , find ) ;
-
+exports.Universe = _RankedTreeUniverse( union , find ) ;
