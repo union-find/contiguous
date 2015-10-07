@@ -177,11 +177,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/LinkedListNode.js",
-            "projectPath": "js/src/000-fundamentals/LinkedListNode.js",
-            "targetPath": "000-fundamentals/LinkedListNode",
-            "pageTitle": "000-fundamentals/LinkedListNode",
-            "title": "LinkedListNode"
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/_RankedTreeForest.js",
+            "projectPath": "js/src/000-fundamentals/_RankedTreeForest.js",
+            "targetPath": "000-fundamentals/_RankedTreeForest",
+            "pageTitle": "000-fundamentals/_RankedTreeForest",
+            "title": "_RankedTreeForest"
           },
           "depth": 2,
           "outline": []
@@ -197,11 +197,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/RankedTreeNode.js",
-            "projectPath": "js/src/000-fundamentals/RankedTreeNode.js",
-            "targetPath": "000-fundamentals/RankedTreeNode",
-            "pageTitle": "000-fundamentals/RankedTreeNode",
-            "title": "RankedTreeNode"
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/nulls.js",
+            "projectPath": "js/src/000-fundamentals/nulls.js",
+            "targetPath": "000-fundamentals/nulls",
+            "pageTitle": "000-fundamentals/nulls",
+            "title": "nulls"
           },
           "depth": 2,
           "outline": []
@@ -217,71 +217,11 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
               "foldPrefix": "^",
               "name": "JavaScript"
             },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/_makeset.js",
-            "projectPath": "js/src/000-fundamentals/_makeset.js",
-            "targetPath": "000-fundamentals/_makeset",
-            "pageTitle": "000-fundamentals/_makeset",
-            "title": "_makeset"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/linkedlistbackfind.js",
-            "projectPath": "js/src/000-fundamentals/linkedlistbackfind.js",
-            "targetPath": "000-fundamentals/linkedlistbackfind",
-            "pageTitle": "000-fundamentals/linkedlistbackfind",
-            "title": "linkedlistbackfind"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/linkedlistmakeset.js",
-            "projectPath": "js/src/000-fundamentals/linkedlistmakeset.js",
-            "targetPath": "000-fundamentals/linkedlistmakeset",
-            "pageTitle": "000-fundamentals/linkedlistmakeset",
-            "title": "linkedlistmakeset"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/rankedtreemakeset.js",
-            "projectPath": "js/src/000-fundamentals/rankedtreemakeset.js",
-            "targetPath": "000-fundamentals/rankedtreemakeset",
-            "pageTitle": "000-fundamentals/rankedtreemakeset",
-            "title": "rankedtreemakeset"
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/ones.js",
+            "projectPath": "js/src/000-fundamentals/ones.js",
+            "targetPath": "000-fundamentals/ones",
+            "pageTitle": "000-fundamentals/ones",
+            "title": "ones"
           },
           "depth": 2,
           "outline": []
@@ -302,6 +242,46 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "targetPath": "000-fundamentals/rankedtreeunion",
             "pageTitle": "000-fundamentals/rankedtreeunion",
             "title": "rankedtreeunion"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/selfs.js",
+            "projectPath": "js/src/000-fundamentals/selfs.js",
+            "targetPath": "000-fundamentals/selfs",
+            "pageTitle": "000-fundamentals/selfs",
+            "title": "selfs"
+          },
+          "depth": 2,
+          "outline": []
+        }, {
+          "type": "file",
+          "data": {
+            "language": {
+              "nameMatchers": [".js"],
+              "pygmentsLexer": "javascript",
+              "multiLineComment": ["/*", "*", "*/"],
+              "singleLineComment": ["//"],
+              "ignorePrefix": "}",
+              "foldPrefix": "^",
+              "name": "JavaScript"
+            },
+            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/000-fundamentals/zeros.js",
+            "projectPath": "js/src/000-fundamentals/zeros.js",
+            "targetPath": "000-fundamentals/zeros",
+            "pageTitle": "000-fundamentals/zeros",
+            "title": "zeros"
           },
           "depth": 2,
           "outline": []
@@ -472,36 +452,6 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
             "targetPath": "001-adt/LinkedListWithHeadAndLength",
             "pageTitle": "001-adt/LinkedListWithHeadAndLength",
             "title": "LinkedListWithHeadAndLength"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
-    }, {
-      "type": "folder",
-      "data": {
-        "path": "999-tools",
-        "title": "999-tools"
-      },
-      "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-fixed-disjoint-set/js/src/999-tools/_prototype.js",
-            "projectPath": "js/src/999-tools/_prototype.js",
-            "targetPath": "999-tools/_prototype",
-            "pageTitle": "999-tools/_prototype",
-            "title": "_prototype"
           },
           "depth": 2,
           "outline": []

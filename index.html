@@ -1,9 +1,10 @@
 <!DOCTYPE html><html lang="en"><head><title>index</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="index"><meta name="groc-project-path" content="README.md"><meta name="groc-github-url" content="https://github.com/aureooms/js-fixed-disjoint-set"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-fixed-disjoint-set/blob/master/README.md">README.md</a></div></div><div id="document"><div class="segment"><div class="comments "><div class="wrapper"><h1 id="-js-fixed-disjoint-set-http-aureooms-github-io-js-fixed-disjoint-set-"><a href="http://aureooms.github.io/js-fixed-disjoint-set">js-fixed-disjoint-set</a></h1>
-<p>Disjoint-set data structure code bricks for JavaScript. Parent is
+<p>Fixed-size-array-based disjoint-set data structure code bricks for JavaScript.
+Parent is
 <a href="https://github.com/aureooms/js-data-structures">aureooms/js-data-structures</a>.</p>
-<pre><code class="lang-js">find( a ) === find( b ) ; <span class="hljs-comment">// false</span>
-union( A , B ) ;
-find( a ) === find( b ) ; <span class="hljs-comment">// true</span></code></pre>
+<pre><code class="lang-js">U.find( a ) === U.find( b ) ; <span class="hljs-comment">// false</span>
+U.union( A , B ) ;
+U.find( a ) === U.find( b ) ; <span class="hljs-comment">// true</span></code></pre>
 <p><a href="https://raw.githubusercontent.com/aureooms/js-fixed-disjoint-set/master/LICENSE"><img src="http://img.shields.io/npm/l/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="NPM license"></a>
 <a href="https://www.npmjs.org/package/aureooms-js-fixed-disjoint-set"><img src="http://img.shields.io/npm/v/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="NPM version"></a>
 <a href="http://bower.io/search/?q=aureooms-js-fixed-disjoint-set"><img src="http://img.shields.io/bower/v/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="Bower version"></a>
@@ -25,38 +26,38 @@ find( a ) === find( b ) ; <span class="hljs-comment">// true</span></code></pre>
 and <a href="https://github.com/npm/npm">npm</a>.</p>
 <h2 id="install">Install</h2>
 <h3 id="jspm">jspm</h3>
-<pre><code class="lang-sh">jspm install github:aureooms/js-fixed-disjoint-set
-<span class="hljs-comment"># or</span>
+<pre><code class="lang-terminal">jspm install github:aureooms/js-fixed-disjoint-set
+# or
 jspm install npm:aureooms-js-fixed-disjoint-set</code></pre>
 <h3 id="duo">duo</h3>
 <p>No install step needed for duo!</p>
 <h3 id="component">component</h3>
-<pre><code class="lang-sh">component install aureooms/js-fixed-disjoint-set</code></pre>
+<pre><code class="lang-terminal">component install aureooms/js-fixed-disjoint-set</code></pre>
 <h3 id="bower">bower</h3>
-<pre><code class="lang-sh">bower install aureooms-js-fixed-disjoint-set</code></pre>
+<pre><code class="lang-terminal">bower install aureooms-js-fixed-disjoint-set</code></pre>
 <h3 id="ender">ender</h3>
-<pre><code class="lang-sh">ender add aureooms-js-fixed-disjoint-set</code></pre>
+<pre><code class="lang-terminal">ender add aureooms-js-fixed-disjoint-set</code></pre>
 <h3 id="jam">jam</h3>
-<pre><code class="lang-sh">jam install aureooms-js-fixed-disjoint-set</code></pre>
+<pre><code class="lang-terminal">jam install aureooms-js-fixed-disjoint-set</code></pre>
 <h3 id="spm">spm</h3>
-<pre><code class="lang-sh">spm install aureooms-js-fixed-disjoint-set --save</code></pre>
+<pre><code class="lang-terminal">spm install aureooms-js-fixed-disjoint-set --save</code></pre>
 <h3 id="npm">npm</h3>
-<pre><code class="lang-sh">npm install aureooms-js-fixed-disjoint-set --save</code></pre>
+<pre><code class="lang-terminal">npm install aureooms-js-fixed-disjoint-set --save</code></pre>
 <h2 id="require">Require</h2>
 <h3 id="jspm">jspm</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"github:aureooms/js-fixed-disjoint-set"</span> ) ;
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> fixeddisjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"github:aureooms/js-fixed-disjoint-set"</span> ) ;
 <span class="hljs-comment">// or</span>
-<span class="hljs-keyword">import</span> disjointset <span class="hljs-keyword">from</span> <span class="hljs-string">'aureooms-js-fixed-disjoint-set'</span> ;</code></pre>
+<span class="hljs-keyword">import</span> fixeddisjointset <span class="hljs-keyword">from</span> <span class="hljs-string">'aureooms-js-fixed-disjoint-set'</span> ;</code></pre>
 <h3 id="duo">duo</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms/js-fixed-disjoint-set"</span> ) ;</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> fixeddisjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms/js-fixed-disjoint-set"</span> ) ;</code></pre>
 <h3 id="component-ender-spm-npm">component, ender, spm, npm</h3>
-<pre><code class="lang-js"><span class="hljs-keyword">let</span> disjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-fixed-disjoint-set"</span> ) ;</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">let</span> fixeddisjointset = <span class="hljs-built_in">require</span>( <span class="hljs-string">"aureooms-js-fixed-disjoint-set"</span> ) ;</code></pre>
 <h3 id="bower">bower</h3>
-<p>The script tag exposes the global variable <code>disjointset</code>.</p>
-<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-fixed-disjoint-set/js/dist/disjoint-set.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
+<p>The script tag exposes the global variable <code>fixeddisjointset</code>.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"bower_components/aureooms-js-fixed-disjoint-set/js/dist/fixed-disjoint-set.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></code></pre>
 <p>Alternatively, you can use any tool mentioned <a href="http://bower.io/docs/tools/">here</a>.</p>
 <h3 id="jam">jam</h3>
-<pre><code class="lang-js"><span class="hljs-built_in">require</span>( [ <span class="hljs-string">"aureooms-js-fixed-disjoint-set"</span> ] , <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> disjointset </span>) </span>{ ... } ) ;</code></pre>
+<pre><code class="lang-js"><span class="hljs-built_in">require</span>( [ <span class="hljs-string">"aureooms-js-fixed-disjoint-set"</span> ] , <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> fixeddisjointset </span>) </span>{ ... } ) ;</code></pre>
 <h2 id="use">Use</h2>
 <pre><code class="lang-js"><span class="hljs-comment">// can choose between 8 different implementations</span>
 <span class="hljs-comment">//   - ForestAmortizedHalving</span>
@@ -68,38 +69,39 @@ jspm install npm:aureooms-js-fixed-disjoint-set</code></pre>
 <span class="hljs-comment">//   - LinkedListWithHeadAndLength</span>
 <span class="hljs-comment">//   - LinkedListWithHead</span>
 
-<span class="hljs-keyword">let</span> { makeset , union , find } = disjointset.ForestAmortizedHalving ;
+<span class="hljs-keyword">let</span> { Universe } = fixeddisjointset.ForestAmortizedHalving ;
+
+<span class="hljs-keyword">let</span> U = <span class="hljs-keyword">new</span> Universe( <span class="hljs-number">3</span> ) ;
 
 <span class="hljs-keyword">let</span> a , b , c , A , B , C ;
 
-A = a = makeset( ) ;
-B = b = makeset( ) ;
-C = c = makeset( ) ;
+A = a = <span class="hljs-number">0</span> ;
+B = b = <span class="hljs-number">1</span> ;
+C = c = <span class="hljs-number">2</span> ;
 
-find( a ) === find( a ) ; <span class="hljs-comment">// true</span>
-find( a ) === find( b ) ; <span class="hljs-comment">// false</span>
-find( a ) === find( c ) ; <span class="hljs-comment">// false</span>
+U.find( a ) === U.find( a ) ; <span class="hljs-comment">// true</span>
+U.find( a ) === U.find( b ) ; <span class="hljs-comment">// false</span>
+U.find( a ) === U.find( c ) ; <span class="hljs-comment">// false</span>
 
-find( b ) === find( a ) ; <span class="hljs-comment">// false</span>
-find( b ) === find( b ) ; <span class="hljs-comment">// true</span>
-find( b ) === find( c ) ; <span class="hljs-comment">// false</span>
+U.find( b ) === U.find( a ) ; <span class="hljs-comment">// false</span>
+U.find( b ) === U.find( b ) ; <span class="hljs-comment">// true</span>
+U.find( b ) === U.find( c ) ; <span class="hljs-comment">// false</span>
 
-find( c ) === find( a ) ; <span class="hljs-comment">// false</span>
-find( c ) === find( b ) ; <span class="hljs-comment">// false</span>
-find( c ) === find( c ) ; <span class="hljs-comment">// true</span>
+U.find( c ) === U.find( a ) ; <span class="hljs-comment">// false</span>
+U.find( c ) === U.find( b ) ; <span class="hljs-comment">// false</span>
+U.find( c ) === U.find( c ) ; <span class="hljs-comment">// true</span>
 
-A = union( A , B ) ; <span class="hljs-comment">// union( B , A ) would work too</span>
+A = U.union( A , B ) ; <span class="hljs-comment">// U.union( B , A ) would work too</span>
 <span class="hljs-keyword">delete</span> B ;
 
-find( a ) === find( a ) ; <span class="hljs-comment">// true</span>
-find( a ) === find( b ) ; <span class="hljs-comment">// true</span>
-find( a ) === find( c ) ; <span class="hljs-comment">// false</span>
+U.find( a ) === U.find( a ) ; <span class="hljs-comment">// true</span>
+U.find( a ) === U.find( b ) ; <span class="hljs-comment">// true</span>
+U.find( a ) === U.find( c ) ; <span class="hljs-comment">// false</span>
 
-find( b ) === find( a ) ; <span class="hljs-comment">// true</span>
-find( b ) === find( b ) ; <span class="hljs-comment">// true</span>
-find( b ) === find( c ) ; <span class="hljs-comment">// false</span>
+U.find( b ) === U.find( a ) ; <span class="hljs-comment">// true</span>
+U.find( b ) === U.find( b ) ; <span class="hljs-comment">// true</span>
+U.find( b ) === U.find( c ) ; <span class="hljs-comment">// false</span>
 
-find( c ) === find( a ) ; <span class="hljs-comment">// false</span>
-find( c ) === find( b ) ; <span class="hljs-comment">// false</span>
-find( c ) === find( c ) ; <span class="hljs-comment">// true</span></code></pre>
-<p><strong><em>( forked from <a href="https://github.com/aureooms/js-disjoint-set">js-disjoint-set</a> )</em></strong></p></div></div></div></div></body></html>
+U.find( c ) === U.find( a ) ; <span class="hljs-comment">// false</span>
+U.find( c ) === U.find( b ) ; <span class="hljs-comment">// false</span>
+U.find( c ) === U.find( c ) ; <span class="hljs-comment">// true</span></code></pre></div></div></div></div></body></html>
