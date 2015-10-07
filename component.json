@@ -4,7 +4,7 @@
 	"scripts": [
 		"js/dist/fixed-disjoint-set.js"
 	],
-	"version": "2.0.1",
+	"version": "3.0.0",
 	"description": "fixed disjoint set code bricks for JavaScript",
 	"main": "js/dist/fixed-disjoint-set.js",
 	"license": "AGPL-3.0"
