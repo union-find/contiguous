@@ -1,13 +1,14 @@
 [js-fixed-disjoint-set](http://aureooms.github.io/js-fixed-disjoint-set)
 ==
 
-Disjoint-set data structure code bricks for JavaScript. Parent is
+Fixed-size-array-based disjoint-set data structure code bricks for JavaScript.
+Parent is
 [aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 ```js
-find( a ) === find( b ) ; // false
-union( A , B ) ;
-find( a ) === find( b ) ; // true
+U.find( a ) === U.find( b ) ; // false
+U.union( A , B ) ;
+U.find( a ) === U.find( b ) ; // true
 ```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-fixed-disjoint-set.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fixed-disjoint-set/master/LICENSE)
@@ -34,7 +35,7 @@ and [npm](https://github.com/npm/npm).
 ## Install
 
 ### jspm
-```sh
+```terminal
 jspm install github:aureooms/js-fixed-disjoint-set
 # or
 jspm install npm:aureooms-js-fixed-disjoint-set
@@ -43,62 +44,62 @@ jspm install npm:aureooms-js-fixed-disjoint-set
 No install step needed for duo!
 
 ### component
-```sh
+```terminal
 component install aureooms/js-fixed-disjoint-set
 ```
 
 ### bower
-```sh
+```terminal
 bower install aureooms-js-fixed-disjoint-set
 ```
 
 ### ender
-```sh
+```terminal
 ender add aureooms-js-fixed-disjoint-set
 ```
 
 ### jam
-```sh
+```terminal
 jam install aureooms-js-fixed-disjoint-set
 ```
 
 ### spm
-```sh
+```terminal
 spm install aureooms-js-fixed-disjoint-set --save
 ```
 
 ### npm
-```sh
+```terminal
 npm install aureooms-js-fixed-disjoint-set --save
 ```
 
 ## Require
 ### jspm
 ```js
-let disjointset = require( "github:aureooms/js-fixed-disjoint-set" ) ;
+let fixeddisjointset = require( "github:aureooms/js-fixed-disjoint-set" ) ;
 // or
-import disjointset from 'aureooms-js-fixed-disjoint-set' ;
+import fixeddisjointset from 'aureooms-js-fixed-disjoint-set' ;
 ```
 ### duo
 ```js
-let disjointset = require( "aureooms/js-fixed-disjoint-set" ) ;
+let fixeddisjointset = require( "aureooms/js-fixed-disjoint-set" ) ;
 ```
 
 ### component, ender, spm, npm
 ```js
-let disjointset = require( "aureooms-js-fixed-disjoint-set" ) ;
+let fixeddisjointset = require( "aureooms-js-fixed-disjoint-set" ) ;
 ```
 
 ### bower
-The script tag exposes the global variable `disjointset`.
+The script tag exposes the global variable `fixeddisjointset`.
 ```html
-<script src="bower_components/aureooms-js-fixed-disjoint-set/js/dist/disjoint-set.min.js"></script>
+<script src="bower_components/aureooms-js-fixed-disjoint-set/js/dist/fixed-disjoint-set.min.js"></script>
 ```
 Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/).
 
 ### jam
 ```js
-require( [ "aureooms-js-fixed-disjoint-set" ] , function ( disjointset ) { ... } ) ;
+require( [ "aureooms-js-fixed-disjoint-set" ] , function ( fixeddisjointset ) { ... } ) ;
 ```
 
 
@@ -115,40 +116,40 @@ require( [ "aureooms-js-fixed-disjoint-set" ] , function ( disjointset ) { ... }
 //   - LinkedListWithHeadAndLength
 //   - LinkedListWithHead
 
-let { makeset , union , find } = disjointset.ForestAmortizedHalving ;
+let { Universe } = fixeddisjointset.ForestAmortizedHalving ;
+
+let U = new Universe( 3 ) ;
 
 let a , b , c , A , B , C ;
 
-A = a = makeset( ) ;
-B = b = makeset( ) ;
-C = c = makeset( ) ;
+A = a = 0 ;
+B = b = 1 ;
+C = c = 2 ;
 
-find( a ) === find( a ) ; // true
-find( a ) === find( b ) ; // false
-find( a ) === find( c ) ; // false
+U.find( a ) === U.find( a ) ; // true
+U.find( a ) === U.find( b ) ; // false
+U.find( a ) === U.find( c ) ; // false
 
-find( b ) === find( a ) ; // false
-find( b ) === find( b ) ; // true
-find( b ) === find( c ) ; // false
+U.find( b ) === U.find( a ) ; // false
+U.find( b ) === U.find( b ) ; // true
+U.find( b ) === U.find( c ) ; // false
 
-find( c ) === find( a ) ; // false
-find( c ) === find( b ) ; // false
-find( c ) === find( c ) ; // true
+U.find( c ) === U.find( a ) ; // false
+U.find( c ) === U.find( b ) ; // false
+U.find( c ) === U.find( c ) ; // true
 
-A = union( A , B ) ; // union( B , A ) would work too
+A = U.union( A , B ) ; // U.union( B , A ) would work too
 delete B ;
 
-find( a ) === find( a ) ; // true
-find( a ) === find( b ) ; // true
-find( a ) === find( c ) ; // false
+U.find( a ) === U.find( a ) ; // true
+U.find( a ) === U.find( b ) ; // true
+U.find( a ) === U.find( c ) ; // false
 
-find( b ) === find( a ) ; // true
-find( b ) === find( b ) ; // true
-find( b ) === find( c ) ; // false
+U.find( b ) === U.find( a ) ; // true
+U.find( b ) === U.find( b ) ; // true
+U.find( b ) === U.find( c ) ; // false
 
-find( c ) === find( a ) ; // false
-find( c ) === find( b ) ; // false
-find( c ) === find( c ) ; // true
+U.find( c ) === U.find( a ) ; // false
+U.find( c ) === U.find( b ) ; // false
+U.find( c ) === U.find( c ) ; // true
 ```
-
-***( forked from [js-disjoint-set](https://github.com/aureooms/js-disjoint-set) )***
