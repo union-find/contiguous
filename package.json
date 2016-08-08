@@ -13,7 +13,7 @@
 	"author": "aureooms",
 	"description": "fixed disjoint set code bricks for JavaScript",
 	"devDependencies": {
-		"aureooms-node-package": "^6.0.1"
+		"aureooms-node-package": "^7.0.0"
 	},
 	"version": "3.0.0",
 	"main": "js/dist/fixed-disjoint-set.js",
