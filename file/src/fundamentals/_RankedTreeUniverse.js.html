@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">aureooms/js-fixed-disjoint-set API Document</title>
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/fundamentals/_RankedTreeUniverse.js | aureooms/js-fixed-disjoint-set API Document</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -68,31 +68,30 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-js-fixed-disjoint-set-http-aureooms-github-io-js-fixed-disjoint-set-"><a href="http://aureooms.github.io/js-fixed-disjoint-set">js-fixed-disjoint-set</a></h1>
-<p>Fixed-size-array-based disjoint-set data structures for JavaScript.
-Parent is
-<a href="https://github.com/aureooms/js-data-structures">aureooms/js-data-structures</a>.</p>
-<pre><code class="lang-js"><code class="source-code prettyprint">U.find( a ) === U.find( b ) ; // false
-U.union( A , B ) ;
-U.find( a ) === U.find( b ) ; // true</code>
+<div class="content" data-ice="content"><h1 data-ice="title">src/fundamentals/_RankedTreeUniverse.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import selfs from &apos;./selfs&apos; ;
+import zeros from &apos;./zeros&apos; ;
+
+export default function _RankedTreeUniverse ( union , find ) {
+
+	const Universe = function ( n , List = Array ) {
+		this.p = selfs( n , List ) ;
+		this.r = zeros( n , List ) ;
+	} ;
+
+	Universe.prototype.union = function ( a , b ) {
+		return union( this.p , this.r , a , b ) ;
+	} ;
+
+	Universe.prototype.find = function ( x ) {
+		return find( this.p , x ) ;
+	} ;
+
+	return Universe ;
+
+}
 </code></pre>
-<p><a href="https://raw.githubusercontent.com/aureooms/js-fixed-disjoint-set/master/LICENSE"><img src="http://img.shields.io/npm/l/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="NPM license"></a>
-<a href="https://www.npmjs.org/package/aureooms-js-fixed-disjoint-set"><img src="http://img.shields.io/npm/v/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="NPM version"></a>
-<a href="https://travis-ci.org/aureooms/js-fixed-disjoint-set"><img src="http://img.shields.io/travis/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="Build Status"></a>
-<a href="https://coveralls.io/r/aureooms/js-fixed-disjoint-set"><img src="http://img.shields.io/coveralls/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="Coverage Status"></a>
-<a href="https://david-dm.org/aureooms/js-fixed-disjoint-set#info=dependencies"><img src="http://img.shields.io/david/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="Dependencies Status"></a>
-<a href="https://david-dm.org/aureooms/js-fixed-disjoint-set#info=devDependencies"><img src="http://img.shields.io/david/dev/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="devDependencies Status"></a>
-<a href="https://codeclimate.com/github/aureooms/js-fixed-disjoint-set"><img src="http://img.shields.io/codeclimate/github/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="Code Climate"></a>
-<a href="https://www.npmjs.org/package/aureooms-js-fixed-disjoint-set"><img src="http://img.shields.io/npm/dm/aureooms-js-fixed-disjoint-set.svg?style=flat" alt="NPM downloads per month"></a>
-<a href="https://github.com/aureooms/js-fixed-disjoint-set/issues"><img src="http://img.shields.io/github/issues/aureooms/js-fixed-disjoint-set.svg?style=flat" alt="GitHub issues"></a>
-<a href="https://aureooms.github.io/js-fixed-disjoint-set/source.html"><img src="https://aureooms.github.io/js-fixed-disjoint-set/badge.svg" alt="Documentation"></a></p>
-<h2 id="related">Related</h2>
-<ul>
-<li><a href="https://github.com/aureooms/js-disjoint-set">aureooms/js-disjoint-set</a>:
-implementation of the same data structures with nodes and pointers instead
-of arrays</li>
-</ul>
-</div>
+
 </div>
 
 <footer class="footer">

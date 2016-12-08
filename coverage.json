@@ -1,0 +1,121 @@
+{
+  "coverage": "0%",
+  "expectCount": 30,
+  "actualCount": 0,
+  "files": {
+    "src/adt/Forest.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        11,
+        3
+      ]
+    },
+    "src/adt/ForestAmortizedHalving.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        5,
+        3
+      ]
+    },
+    "src/adt/ForestAmortizedRecursive.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        13,
+        5,
+        3
+      ]
+    },
+    "src/adt/ForestAmortizedSplitting.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        20,
+        5,
+        3
+      ]
+    },
+    "src/adt/ForestAmortizedTwoPasses.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        23,
+        5,
+        3
+      ]
+    },
+    "src/adt/LinkedList.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        19,
+        11,
+        3
+      ]
+    },
+    "src/adt/LinkedListWithHead.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        16,
+        14,
+        3
+      ]
+    },
+    "src/adt/LinkedListWithHeadAndLength.js": {
+      "expectCount": 3,
+      "actualCount": 0,
+      "undocumentLines": [
+        24,
+        22,
+        3
+      ]
+    },
+    "src/fundamentals/_RankedTreeUniverse.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        4
+      ]
+    },
+    "src/fundamentals/nulls.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/fundamentals/ones.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/fundamentals/rankedtreeunion.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/fundamentals/selfs.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    },
+    "src/fundamentals/zeros.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        1
+      ]
+    }
+  }
+}
