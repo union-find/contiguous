@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const number = require( 'aureooms-js-fixed-disjoint-set' ) ;
+const fixeddisjointset = require( 'aureooms-js-fixed-disjoint-set' ) ;
 // or
-import number from 'aureooms-js-fixed-disjoint-set' ;
+import fixeddisjointset from 'aureooms-js-fixed-disjoint-set' ;
 ```
