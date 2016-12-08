@@ -1,39 +1,64 @@
 {
-	"bugs": {
-		"url": "https://github.com/aureooms/js-fixed-disjoint-set/issues"
-	},
-	"dependencies": {},
-	"name": "aureooms-js-fixed-disjoint-set",
-	"scripts": {
-		"doc": "./node_modules/.bin/groc",
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"test": "./node_modules/.bin/aureooms-node-package-test"
-	},
-	"homepage": "http://aureooms.github.io/js-fixed-disjoint-set/",
-	"author": "aureooms",
-	"description": "fixed disjoint set code bricks for JavaScript",
-	"devDependencies": {
-		"aureooms-node-package": "^6.0.1"
-	},
-	"version": "3.0.0",
-	"main": "js/dist/fixed-disjoint-set.js",
-	"license": "AGPL-3.0",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/aureooms/js-fixed-disjoint-set.git"
-	},
-	"keywords": [
-		"bricks",
-		"data",
-		"disjoint",
-		"ender",
-		"fixed",
-		"javascript",
-		"js",
-		"set",
-		"structures"
-	],
-	"spm": {
-		"main": "js/dist/fixed-disjoint-set.js"
-	}
+  "bugs": {
+    "url": "https://github.com/aureooms/js-fixed-disjoint-set/issues"
+  },
+  "dependencies": {},
+  "name": "aureooms-js-fixed-disjoint-set",
+  "homepage": "https://aureooms.github.io/js-fixed-disjoint-set",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "description": "Fixed-size disjoint set data structures for JavaScript",
+  "devDependencies": {
+    "aureooms-js-array": "^3.1.0",
+    "aureooms-js-functools": "^2.0.3",
+    "aureooms-js-itertools": "^3.1.1",
+    "ava": "^0.17.0",
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "codeclimate-test-reporter": "^0.4.0",
+    "coveralls": "^2.11.15",
+    "esdoc": "^0.4.8",
+    "nyc": "^10.0.0"
+  },
+  "version": "3.0.0",
+  "main": "lib/index.js",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aureooms/js-fixed-disjoint-set.git"
+  },
+  "keywords": [
+    "data",
+    "disjoint",
+    "fixed",
+    "javascript",
+    "js",
+    "set",
+    "structures",
+    "find",
+    "merge",
+    "union"
+  ],
+  "ava": {
+    "require": [
+      "babel-polyfill",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src --concurrency 8"
+  }
 }
