@@ -16,8 +16,8 @@ export function find ( p , x ) {
 
 }
 
-export function Universe ( n , Array = Array ) {
-	this.p = selfs( n , Array ) ;
+export function Universe ( n , List = Array ) {
+	this.p = selfs( n , List ) ;
 }
 
 Universe.prototype.union = function ( a , b ) {

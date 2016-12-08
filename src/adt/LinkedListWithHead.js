@@ -13,9 +13,9 @@ export function union ( back , next , a , b ) {
 
 export const find = ( back , node ) => back[node] ;
 
-export function Universe ( n , Array = Array) {
-	this.back = selfs( n , Array ) ;
-	this.next = nulls( n , Array ) ;
+export function Universe ( n , List = Array) {
+	this.back = selfs( n , List ) ;
+	this.next = nulls( n , List ) ;
 }
 
 Universe.prototype.union = function ( a , b ) {

@@ -1,4 +1,4 @@
-import { selfs , nulls } from '../fundamentals' ;
+import { selfs , nulls , ones } from '../fundamentals' ;
 
 export function union ( back , next , length , a , b ) {
 
@@ -21,10 +21,10 @@ export function union ( back , next , length , a , b ) {
 
 export const find = ( back , node ) => back[node] ;
 
-export function Universe ( n , Array = Array ) {
-	this.back = selfs( n , Array ) ;
-	this.next = nulls( n , Array ) ;
-	this._length = ones( n , Array ) ;
+export function Universe ( n , List = Array ) {
+	this.back = selfs( n , List ) ;
+	this.next = nulls( n , List ) ;
+	this._length = ones( n , List ) ;
 }
 
 Universe.prototype.union = function ( a , b ) {

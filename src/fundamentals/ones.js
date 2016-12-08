@@ -1,6 +1,6 @@
-export default function ones ( n , Array = Array ) {
+export default function ones ( n , List = Array ) {
 
-	const a = new Array( n ) ;
+	const a = new List( n ) ;
 
 	for ( let i = 0 ; i < n ; ++i ) a[i] = 1 ;
 

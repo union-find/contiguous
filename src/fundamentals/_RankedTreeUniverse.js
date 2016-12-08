@@ -3,9 +3,9 @@ import zeros from './zeros' ;
 
 export default function _RankedTreeUniverse ( union , find ) {
 
-	const Universe = function ( n , Array = Array ) {
-		this.p = selfs( n , Array ) ;
-		this.r = zeros( n , Array ) ;
+	const Universe = function ( n , List = Array ) {
+		this.p = selfs( n , List ) ;
+		this.r = zeros( n , List ) ;
 	} ;
 
 	Universe.prototype.union = function ( a , b ) {

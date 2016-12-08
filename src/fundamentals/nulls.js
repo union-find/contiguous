@@ -1,6 +1,6 @@
-export default function nulls ( n , Array = Array ) {
+export default function nulls ( n , List = Array ) {
 
-	const a = new Array( n ) ;
+	const a = new List( n ) ;
 
 	for ( let i = 0 ; i < n ; ++i ) a[i] = -1 ;
 
