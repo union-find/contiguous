@@ -4,10 +4,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:aureooms-js-fixed-disjoint-set
+jspm install npm:@aureooms/js-fixed-disjoint-set
 ```
 
 ### npm
 ```terminal
-npm install aureooms-js-fixed-disjoint-set --save
+npm install @aureooms/js-fixed-disjoint-set --save
 ```
