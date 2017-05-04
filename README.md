@@ -1,6 +1,8 @@
 [js-fixed-disjoint-set](http://aureooms.github.io/js-fixed-disjoint-set)
 ==
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Disjuct-sets.svg" width="864">
+
 Fixed-size-array-based disjoint-set data structures for JavaScript.
 Parent is
 [aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
@@ -15,8 +17,8 @@ U.find( a ) === U.find( b ) ; // true
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-fixed-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
 [![Build Status](https://img.shields.io/travis/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://travis-ci.org/aureooms/js-fixed-disjoint-set)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://coveralls.io/r/aureooms/js-fixed-disjoint-set)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set#info=dependencies)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set#info=devDependencies)
+[![Dependencies Status](https://img.shields.io/david/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set)
+[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set?type=dev)
 [![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://codeclimate.com/github/aureooms/js-fixed-disjoint-set)
 [![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-fixed-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-fixed-disjoint-set/issues)
