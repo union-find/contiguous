@@ -1,11 +1,12 @@
-[js-fixed-disjoint-set](http://aureooms.github.io/js-fixed-disjoint-set)
+[@aureooms/js-fixed-disjoint-set](https://aureooms.github.io/js-fixed-disjoint-set)
 ==
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Disjuct-sets.svg" width="864">
 
 Fixed-size-array-based disjoint-set data structures for JavaScript.
+See [docs](https://aureooms.github.io/js-fixed-disjoint-set).
 Parent is
-[aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
+[@aureooms/js-data-structures](https://github.com/aureooms/js-data-structures).
 
 ```js
 U.find( a ) === U.find( b ) ; // false
