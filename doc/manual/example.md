@@ -1,3 +1,4 @@
+# Examples
 ```js
 // can choose between 8 different implementations
 //   - ForestAmortizedHalving
