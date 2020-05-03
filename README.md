@@ -14,16 +14,20 @@ U.union( A , B ) ;
 U.find( a ) === U.find( b ) ; // true
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-fixed-disjoint-set/master/LICENSE)
-[![NPM version](https://img.shields.io/npm/v/@aureooms/js-fixed-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
-[![Build Status](https://img.shields.io/travis/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://travis-ci.org/aureooms/js-fixed-disjoint-set)
-[![Coverage Status](https://img.shields.io/coveralls/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://coveralls.io/r/aureooms/js-fixed-disjoint-set)
-[![Dependencies Status](https://img.shields.io/david/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set)
-[![devDependencies Status](https://img.shields.io/david/dev/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://david-dm.org/aureooms/js-fixed-disjoint-set?type=dev)
-[![Code Climate](https://img.shields.io/codeclimate/github/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://codeclimate.com/github/aureooms/js-fixed-disjoint-set)
-[![NPM downloads per month](https://img.shields.io/npm/dm/@aureooms/js-fixed-disjoint-set.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
-[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-fixed-disjoint-set.svg?style=flat)](https://github.com/aureooms/js-fixed-disjoint-set/issues)
+[![License](https://img.shields.io/github/license/aureooms/js-fixed-disjoint-set.svg)](https://raw.githubusercontent.com/aureooms/js-fixed-disjoint-set/master/LICENSE)
+[![Version](https://img.shields.io/npm/v/@aureooms/js-fixed-disjoint-set.svg)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
+[![Build](https://img.shields.io/travis/aureooms/js-fixed-disjoint-set/master.svg)](https://travis-ci.org/aureooms/js-fixed-disjoint-set/branches)
+[![Dependencies](https://img.shields.io/david/aureooms/js-fixed-disjoint-set.svg)](https://david-dm.org/aureooms/js-fixed-disjoint-set)
+[![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-fixed-disjoint-set.svg)](https://david-dm.org/aureooms/js-fixed-disjoint-set?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/aureooms/js-fixed-disjoint-set.svg)](https://github.com/aureooms/js-fixed-disjoint-set/issues)
+[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-fixed-disjoint-set.svg)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
+
+[![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/aureooms/js-fixed-disjoint-set/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/aureooms/js-fixed-disjoint-set/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-fixed-disjoint-set/master.svg)](https://codecov.io/gh/aureooms/js-fixed-disjoint-set)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/aureooms/js-fixed-disjoint-set/trends/technical_debt)
 [![Documentation](https://aureooms.github.io/js-fixed-disjoint-set/badge.svg)](https://aureooms.github.io/js-fixed-disjoint-set/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fixed-disjoint-set)](https://bundlephobia.com/result?p=@aureooms/js-fixed-disjoint-set)
 
 ## Related
 
