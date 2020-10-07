@@ -34,3 +34,7 @@ U.find( a ) === U.find( b ) ; // true
   - [aureooms/js-disjoint-set](https://github.com/aureooms/js-disjoint-set):
     implementation of the same data structures with nodes and pointers instead
     of arrays
+
+## References
+
+  - [Wikipedia page on disjoint-set data structures](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
