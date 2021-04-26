@@ -74,7 +74,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-fixed-disjoint-set/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-fixed-disjoint-set/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -119,7 +119,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aureooms/js-fixed-disjoint-set.git"
+    "url": "https://github.com/make-github-pseudonymous-again/js-fixed-disjoint-set.git"
   },
   "scripts": {
     "build": "babel --delete-dir-on-start --env-name production src -d lib",
