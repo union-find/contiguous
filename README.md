@@ -1,4 +1,4 @@
-:rice: [@aureooms/js-fixed-disjoint-set](https://make-github-pseudonymous-again.github.io/js-fixed-disjoint-set)
+:rice: [@union-find/contiguous](https://union-find.github.io/contiguous)
 ==
 
 <p align="center">
@@ -13,9 +13,9 @@ User:Svjo
 </p>
 
 Fixed-size-array-based disjoint-set data structures for JavaScript.
-See [docs](https://make-github-pseudonymous-again.github.io/js-fixed-disjoint-set).
+See [docs](https://union-find.github.io/contiguous).
 Parent is
-[@aureooms/js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
+[js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
 
 ```js
 U.find( a ) === U.find( b ) ; // false
@@ -23,24 +23,24 @@ U.union( A , B ) ;
 U.find( a ) === U.find( b ) ; // true
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-fixed-disjoint-set/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-fixed-disjoint-set.svg)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
-[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-fixed-disjoint-set/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-fixed-disjoint-set/branches)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://david-dm.org/make-github-pseudonymous-again/js-fixed-disjoint-set)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://david-dm.org/make-github-pseudonymous-again/js-fixed-disjoint-set?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://github.com/make-github-pseudonymous-again/js-fixed-disjoint-set/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-fixed-disjoint-set.svg)](https://www.npmjs.org/package/@aureooms/js-fixed-disjoint-set)
+[![License](https://img.shields.io/github/license/union-find/contiguous.svg)](https://raw.githubusercontent.com/union-find/contiguous/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)
+[![Build](https://img.shields.io/travis/union-find/contiguous/main.svg)](https://travis-ci.org/union-find/contiguous/branches)
+[![Dependencies](https://img.shields.io/david/union-find/contiguous.svg)](https://david-dm.org/union-find/contiguous)
+[![Dev dependencies](https://img.shields.io/david/dev/union-find/contiguous.svg)](https://david-dm.org/union-find/contiguous?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/union-find/contiguous.svg)](https://github.com/union-find/contiguous/issues)
+[![Downloads](https://img.shields.io/npm/dm/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-fixed-disjoint-set/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-fixed-disjoint-set/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-fixed-disjoint-set/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-fixed-disjoint-set)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-fixed-disjoint-set.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-fixed-disjoint-set/trends/technical_debt)
-[![Documentation](https://make-github-pseudonymous-again.github.io/js-fixed-disjoint-set/badge.svg)](https://make-github-pseudonymous-again.github.io/js-fixed-disjoint-set/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-fixed-disjoint-set)](https://bundlephobia.com/result?p=@aureooms/js-fixed-disjoint-set)
+[![Code issues](https://img.shields.io/codeclimate/issues/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/union-find/contiguous/main.svg)](https://codecov.io/gh/union-find/contiguous)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/trends/technical_debt)
+[![Documentation](https://union-find.github.io/contiguous/badge.svg)](https://union-find.github.io/contiguous/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@union-find/contiguous)](https://bundlephobia.com/result?p=@union-find/contiguous)
 
 ## :dancing_women: Related
 
-  - [aureooms/js-disjoint-set](https://github.com/make-github-pseudonymous-again/js-disjoint-set):
+  - [@union-find/non-contiguous](https://github.com/union-find/non-contiguous):
     implementation of the same data structures with nodes and pointers instead
     of arrays
 
