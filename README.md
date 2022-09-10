@@ -2,8 +2,8 @@
 ==
 
 <p align="center">
-<a href="https://commons.wikimedia.org/wiki/File:Disjuct-sets.svg">
-<img alt="A collection of disjoint sets" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Disjuct-sets.svg" width="300">
+<a href="https://commons.wikimedia.org/wiki/File:Disjoint_sets.svg">
+<img alt="A collection of disjoint sets" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Disjoint_sets.svg" width="300">
 </a><br/>
 <a href="https://commons.wikimedia.org/w/index.php?title=User:Svjo">
 User:Svjo
