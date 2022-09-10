@@ -1,36 +1,26 @@
-import { selfs , nulls } from '../fundamentals/index.js' ;
+import {identity, nulls} from '../fundamentals/index.js';
 
-export function union ( back , next , a , b ) {
+export const union = (back, next, a, b) => {
+	next[back[a]] = b;
+	back[a] = back[b];
+	return a;
+};
 
-	next[back[a]] = b ;
-	back[a] = back[b] ;
-	return a ;
+export const find = (next, node) => {
+	while (next[node] !== -1) node = next[node];
 
+	return node;
+};
+
+export function Universe(n, List = Array) {
+	this.back = identity(n, List);
+	this.next = nulls(n, List);
 }
 
-export function find ( next , node ) {
+Universe.prototype.union = function (a, b) {
+	return union(this.back, this.next, a, b);
+};
 
-	while ( next[node] !== -1 ) node = next[node] ;
-
-	return node ;
-
-}
-
-export function Universe ( n , List = Array ) {
-	this.back = selfs( n , List ) ;
-	this.next = nulls( n , List ) ;
-}
-
-Universe.prototype.union = function ( a , b ) {
-	return union( this.back , this.next , a , b ) ;
-} ;
-
-Universe.prototype.find = function ( node ) {
-	return find( this.next , node ) ;
-} ;
-
-export default {
-	Universe ,
-	union ,
-	find ,
-} ;
+Universe.prototype.find = function (node) {
+	return find(this.next, node);
+};

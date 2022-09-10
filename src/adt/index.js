@@ -1,30 +1,8 @@
-import Forest from './Forest.js' ;
-import ForestAmortizedHalving from './ForestAmortizedHalving.js' ;
-import ForestAmortizedRecursive from './ForestAmortizedRecursive.js' ;
-import ForestAmortizedSplitting from './ForestAmortizedSplitting.js' ;
-import ForestAmortizedTwoPasses from './ForestAmortizedTwoPasses.js' ;
-import LinkedList from './LinkedList.js' ;
-import LinkedListWithHead from './LinkedListWithHead.js' ;
-import LinkedListWithHeadAndLength from './LinkedListWithHeadAndLength.js' ;
-
-export default {
-	Forest ,
-	ForestAmortizedHalving ,
-	ForestAmortizedRecursive ,
-	ForestAmortizedSplitting ,
-	ForestAmortizedTwoPasses ,
-	LinkedList ,
-	LinkedListWithHead ,
-	LinkedListWithHeadAndLength ,
-} ;
-
-export {
-	Forest ,
-	ForestAmortizedHalving ,
-	ForestAmortizedRecursive ,
-	ForestAmortizedSplitting ,
-	ForestAmortizedTwoPasses ,
-	LinkedList ,
-	LinkedListWithHead ,
-	LinkedListWithHeadAndLength ,
-} ;
+export * as Forest from './Forest.js';
+export * as ForestAmortizedRecursive from './ForestAmortizedRecursive.js';
+export * as ForestAmortizedHalving from './ForestAmortizedHalving.js';
+export * as ForestAmortizedTwoPasses from './ForestAmortizedTwoPasses.js';
+export * as ForestAmortizedSplitting from './ForestAmortizedSplitting.js';
+export * as LinkedList from './LinkedList.js';
+export * as LinkedListWithHeadAndLength from './LinkedListWithHeadAndLength.js';
+export * as LinkedListWithHead from './LinkedListWithHead.js';

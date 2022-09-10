@@ -1,29 +1,19 @@
-import { rankedtreeunion , _RankedTreeUniverse } from '../fundamentals/index.js' ;
+import {rankedtreeunion, _RankedTreeUniverse} from '../fundamentals/index.js';
 
-export const union = rankedtreeunion ;
+export const union = rankedtreeunion;
 
-export function find ( p , node ) {
+export const find = (p, node) => {
+	let it = node;
 
-	let it = node ;
+	for (; it !== p[it]; it = p[it]);
 
-	for ( ; it !== p[it] ; it = p[it] ) ;
-
-	while ( p[node] !== it ) {
-
-		const parent = p[node] ;
-		p[node] = it ;
-		node = parent ;
-
+	while (p[node] !== it) {
+		const parent = p[node];
+		p[node] = it;
+		node = parent;
 	}
 
-	return it ;
+	return it;
+};
 
-}
-
-export const Universe = _RankedTreeUniverse( union , find ) ;
-
-export default {
-	Universe ,
-	union ,
-	find ,
-} ;
+export const Universe = _RankedTreeUniverse(union, find);
