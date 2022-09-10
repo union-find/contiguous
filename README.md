@@ -25,7 +25,7 @@ U.find( a ) === U.find( b ) ; // true
 
 [![License](https://img.shields.io/github/license/union-find/contiguous.svg)](https://raw.githubusercontent.com/union-find/contiguous/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)
-[![Tests](https://img.shields.io/github/workflow/status/union-find/contiguous/ci:test?event=push&label=tests)](https://github.com/union-find/contiguous/actions/workflows/ci:test.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/union-find/contiguous/ci?event=push&label=tests)](https://github.com/union-find/contiguous/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/union-find/contiguous.svg)](https://github.com/union-find/contiguous/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/union-find/contiguous.svg)](https://github.com/union-find/contiguous/issues)
 [![Downloads](https://img.shields.io/npm/dm/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)

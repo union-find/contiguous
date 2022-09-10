@@ -9,7 +9,7 @@ import {
 	ForestAmortizedTwoPasses,
 	ForestAmortizedSplitting,
 	ForestAmortizedHalving,
-} from '../../src/index.js';
+} from '#module';
 
 function macro(t, Universe) {
 	/* eslint-disable no-multi-assign */
