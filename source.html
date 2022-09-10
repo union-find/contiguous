@@ -2,17 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl" href="">
-  <title data-ice="title">Source | aureooms/js-fixed-disjoint-set API Document</title>
+  <base data-ice="baseUrl" href>
+  <title data-ice="title">Source | @union-find/contiguous</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
-  
-  
   <script src="script/manual.js"></script>
-<script data-ice="userScript" src="user/script/0-header.js"></script>
-<link data-ice="userStyle" rel="stylesheet" href="user/css/0-style.css">
-</head>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Fixed-size disjoint set data structures for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@union-find/contiguous"><meta property="twitter:description" content="Fixed-size disjoint set data structures for JavaScript"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -20,8 +16,7 @@
   <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
-  <a href="test.html" data-ice="testLink">Test</a>
-  <a data-ice="repoURL" href="https://github.com/aureooms/js-fixed-disjoint-set.git" class="repo-url-github">Repository</a>
+  
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -29,12 +24,12 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/union-find/contiguous"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
     
-  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">adt</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Universe">Universe</a></span></span></li>
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#adt">adt</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Universe">Universe</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-union">union</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
@@ -45,8 +40,10 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-union">union</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Universe">Universe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-union">union</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Universe">Universe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-find">find</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-union">union</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-union">union</a></span></span></li>
@@ -56,19 +53,17 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-union">union</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-union">union</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-find">find</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-find">find</a></span></span></li>
-<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">fundamentals</div><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_RankedTreeUniverse">_RankedTreeUniverse</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#fundamentals">fundamentals</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_RankedTreeUniverse">_RankedTreeUniverse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-identity">identity</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nulls">nulls</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ones">ones</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rankedtreeunion">rankedtreeunion</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-selfs">selfs</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-zeros">zeros</a></span></span></li>
 </ul>
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">0/30</span></h1>
+<div class="content" data-ice="content"><h1>Source <img data-ice="coverageBadge" src="./badge.svg"><span data-ice="totalCoverageCount" class="total-coverage-count">0/38</span></h1>
 
 <table class="files-summary" data-ice="files" data-use-coverage="true">
   <thead>
@@ -84,139 +79,155 @@
   <tbody>
     
   <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/Forest.js.html#errorLines=11,19,3">src/adt/Forest.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/adt/Forest.js.html#errorLines=15,19,23,3,9">src/adt/Forest.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-Universe">Universe</a></span>
 <span><a href="function/index.html#static-function-find">find</a></span>
 <span><a href="function/index.html#static-function-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">516 byte</td>
-      <td style="display: none;" data-ice="lines">35</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">434 byte</td>
+      <td style="display: none;" data-ice="lines">25</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedHalving.js.html#errorLines=20,3,5">src/adt/ForestAmortizedHalving.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedHalving.js.html#errorLines=16,3,5">src/adt/ForestAmortizedHalving.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
 <span><a href="function/index.html#static-function-find">find</a></span>
 <span><a href="variable/index.html#static-variable-union">union</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">413 byte</td>
-      <td style="display: none;" data-ice="lines">26</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">351 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedRecursive.js.html#errorLines=13,3,5">src/adt/ForestAmortizedRecursive.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedRecursive.js.html#errorLines=11,3,5">src/adt/ForestAmortizedRecursive.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
 <span><a href="function/index.html#static-function-find">find</a></span>
 <span><a href="variable/index.html#static-variable-union">union</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">345 byte</td>
+      <td style="display: none;" data-ice="size">285 byte</td>
+      <td style="display: none;" data-ice="lines">11</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedSplitting.js.html#errorLines=16,3,5">src/adt/ForestAmortizedSplitting.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
+<span><a href="function/index.html#static-function-find">find</a></span>
+<span><a href="variable/index.html#static-variable-union">union</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">350 byte</td>
+      <td style="display: none;" data-ice="lines">16</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedTwoPasses.js.html#errorLines=19,3,5">src/adt/ForestAmortizedTwoPasses.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
+<span><a href="function/index.html#static-function-find">find</a></span>
+<span><a href="variable/index.html#static-variable-union">union</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
+      <td style="display: none;" data-ice="size">370 byte</td>
       <td style="display: none;" data-ice="lines">19</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedSplitting.js.html#errorLines=20,3,5">src/adt/ForestAmortizedSplitting.js</a></span></td>
-      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
+      <td data-ice="filePath"><span><a href="file/src/adt/LinkedList.js.html#errorLines=15,20,24,3,9">src/adt/LinkedList.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-Universe">Universe</a></span>
 <span><a href="function/index.html#static-function-find">find</a></span>
-<span><a href="variable/index.html#static-variable-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">412 byte</td>
+<span><a href="function/index.html#static-function-union">union</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">540 byte</td>
       <td style="display: none;" data-ice="lines">26</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/ForestAmortizedTwoPasses.js.html#errorLines=23,3,5">src/adt/ForestAmortizedTwoPasses.js</a></span></td>
-      <td data-ice="identifier" class="identifiers"><span><a href="variable/index.html#static-variable-Universe">Universe</a></span>
-<span><a href="function/index.html#static-function-find">find</a></span>
-<span><a href="variable/index.html#static-variable-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">436 byte</td>
-      <td style="display: none;" data-ice="lines">29</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
-    </tr>
-<tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/LinkedList.js.html#errorLines=11,19,3">src/adt/LinkedList.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/adt/LinkedListWithHead.js.html#errorLines=12,14,19,23,3">src/adt/LinkedListWithHead.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-Universe">Universe</a></span>
 <span><a href="function/index.html#static-function-find">find</a></span>
 <span><a href="function/index.html#static-function-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">622 byte</td>
-      <td style="display: none;" data-ice="lines">36</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">552 byte</td>
+      <td style="display: none;" data-ice="lines">25</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/LinkedListWithHead.js.html#errorLines=14,16,3">src/adt/LinkedListWithHead.js</a></span></td>
+      <td data-ice="filePath"><span><a href="file/src/adt/LinkedListWithHeadAndLength.js.html#errorLines=20,22,28,3,32">src/adt/LinkedListWithHeadAndLength.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-Universe">Universe</a></span>
-<span><a href="variable/index.html#static-variable-find">find</a></span>
+<span><a href="function/index.html#static-function-find">find</a></span>
 <span><a href="function/index.html#static-function-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">636 byte</td>
-      <td style="display: none;" data-ice="lines">33</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
-    </tr>
-<tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/adt/LinkedListWithHeadAndLength.js.html#errorLines=22,24,3">src/adt/LinkedListWithHeadAndLength.js</a></span></td>
-      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-Universe">Universe</a></span>
-<span><a href="variable/index.html#static-variable-find">find</a></span>
-<span><a href="function/index.html#static-function-union">union</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/3</span></td>
-      <td style="display: none;" data-ice="size">800 byte</td>
-      <td style="display: none;" data-ice="lines">42</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/5</span></td>
+      <td style="display: none;" data-ice="size">704 byte</td>
+      <td style="display: none;" data-ice="lines">34</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/fundamentals/_RankedTreeUniverse.js.html#errorLines=4">src/fundamentals/_RankedTreeUniverse.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-_RankedTreeUniverse">_RankedTreeUniverse</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">444 byte</td>
-      <td style="display: none;" data-ice="lines">21</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">421 byte</td>
+      <td style="display: none;" data-ice="lines">19</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/fundamentals/identity.js.html#errorLines=1">src/fundamentals/identity.js</a></span></td>
+      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-identity">identity</a></span></td>
+      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
+      <td style="display: none;" data-ice="size">130 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/fundamentals/index.js.html">src/fundamentals/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">322 byte</td>
+      <td style="display: none;" data-ice="lines">6</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/fundamentals/nulls.js.html#errorLines=1">src/fundamentals/nulls.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-nulls">nulls</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">143 byte</td>
-      <td style="display: none;" data-ice="lines">9</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">128 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/fundamentals/ones.js.html#errorLines=1">src/fundamentals/ones.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-ones">ones</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">141 byte</td>
-      <td style="display: none;" data-ice="lines">9</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">126 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/fundamentals/rankedtreeunion.js.html#errorLines=1">src/fundamentals/rankedtreeunion.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-rankedtreeunion">rankedtreeunion</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">221 byte</td>
-      <td style="display: none;" data-ice="lines">19</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
-    </tr>
-<tr data-ice="file">
-      <td data-ice="filePath"><span><a href="file/src/fundamentals/selfs.js.html#errorLines=1">src/fundamentals/selfs.js</a></span></td>
-      <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-selfs">selfs</a></span></td>
-      <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">142 byte</td>
-      <td style="display: none;" data-ice="lines">9</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">183 byte</td>
+      <td style="display: none;" data-ice="lines">15</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 <tr data-ice="file">
       <td data-ice="filePath"><span><a href="file/src/fundamentals/zeros.js.html#errorLines=1">src/fundamentals/zeros.js</a></span></td>
       <td data-ice="identifier" class="identifiers"><span><a href="function/index.html#static-function-zeros">zeros</a></span></td>
       <td class="coverage"><span data-ice="coverage">0 %</span><span data-ice="coverageCount" class="coverage-count">0/1</span></td>
-      <td style="display: none;" data-ice="size">142 byte</td>
-      <td style="display: none;" data-ice="lines">9</td>
-      <td style="display: none;" data-ice="updated">2016-12-05 14:59:44 (UTC)</td>
+      <td style="display: none;" data-ice="size">127 byte</td>
+      <td style="display: none;" data-ice="lines">7</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
+    </tr>
+<tr data-ice="file">
+      <td data-ice="filePath"><span><a href="file/src/index.js.html">src/index.js</a></span></td>
+      <td data-ice="identifier" class="identifiers">-</td>
+      <td class="coverage"><span data-ice="coverage">-</span></td>
+      <td style="display: none;" data-ice="size">213 byte</td>
+      <td style="display: none;" data-ice="lines">10</td>
+      <td style="display: none;" data-ice="updated">2022-09-07 20:53:26 (UTC)</td>
     </tr>
 </tbody>
 </table>
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
 </footer>
 
 <script src="script/search_index.js"></script>

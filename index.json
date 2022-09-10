@@ -1,0 +1,2082 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/adt/Forest.js",
+    "content": "import {identity} from '../fundamentals/index.js';\n\nexport const union = (p, a, b) => {\n\tp[find(p, b)] = find(p, a);\n\n\treturn a;\n};\n\nexport const find = (p, x) => {\n\twhile (x !== p[x]) x = p[x];\n\n\treturn x;\n};\n\nexport function Universe(n, List = Array) {\n\tthis.p = identity(n, List);\n}\n\nUniverse.prototype.union = function (a, b) {\n\treturn union(this.p, a, b);\n};\n\nUniverse.prototype.find = function (x) {\n\treturn find(this.p, x);\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/Forest.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/Forest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/Forest.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/Forest.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/Forest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/Forest.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/Forest.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "Universe",
+    "memberof": "src/adt/Forest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/Forest.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/Forest.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/Forest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/Forest.js~union",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/Forest.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/Forest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/Forest.js~find",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/Forest.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "x",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/adt/ForestAmortizedHalving.js",
+    "content": "import {rankedtreeunion, _RankedTreeUniverse} from '../fundamentals/index.js';\n\nexport const union = rankedtreeunion;\n\nexport const find = (p, node) => {\n\tlet parent = p[node];\n\n\tfor (; p[parent] !== parent; parent = p[node]) {\n\t\tp[node] = p[parent];\n\t\tnode = p[node];\n\t}\n\n\treturn parent;\n};\n\nexport const Universe = _RankedTreeUniverse(union, find);\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/ForestAmortizedHalving.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "variable",
+    "name": "union",
+    "memberof": "src/adt/ForestAmortizedHalving.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedHalving.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedHalving.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/ForestAmortizedHalving.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/ForestAmortizedHalving.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedHalving.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "variable",
+    "name": "Universe",
+    "memberof": "src/adt/ForestAmortizedHalving.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedHalving.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedHalving.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/adt/ForestAmortizedRecursive.js",
+    "content": "import {rankedtreeunion, _RankedTreeUniverse} from '../fundamentals/index.js';\n\nexport const union = rankedtreeunion;\n\nexport const find = (p, node) => {\n\tif (node !== p[node]) p[node] = find(p, p[node]);\n\n\treturn p[node];\n};\n\nexport const Universe = _RankedTreeUniverse(union, find);\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/ForestAmortizedRecursive.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "variable",
+    "name": "union",
+    "memberof": "src/adt/ForestAmortizedRecursive.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedRecursive.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedRecursive.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/ForestAmortizedRecursive.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/ForestAmortizedRecursive.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedRecursive.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "variable",
+    "name": "Universe",
+    "memberof": "src/adt/ForestAmortizedRecursive.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedRecursive.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedRecursive.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/adt/ForestAmortizedSplitting.js",
+    "content": "import {rankedtreeunion, _RankedTreeUniverse} from '../fundamentals/index.js';\n\nexport const union = rankedtreeunion;\n\nexport const find = (p, node) => {\n\tlet parent = p[node];\n\n\tfor (; p[parent] !== parent; parent = p[node]) {\n\t\tp[node] = p[parent];\n\t\tnode = parent;\n\t}\n\n\treturn parent;\n};\n\nexport const Universe = _RankedTreeUniverse(union, find);\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/ForestAmortizedSplitting.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "union",
+    "memberof": "src/adt/ForestAmortizedSplitting.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedSplitting.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedSplitting.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/ForestAmortizedSplitting.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/ForestAmortizedSplitting.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedSplitting.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "variable",
+    "name": "Universe",
+    "memberof": "src/adt/ForestAmortizedSplitting.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedSplitting.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedSplitting.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/adt/ForestAmortizedTwoPasses.js",
+    "content": "import {rankedtreeunion, _RankedTreeUniverse} from '../fundamentals/index.js';\n\nexport const union = rankedtreeunion;\n\nexport const find = (p, node) => {\n\tlet it = node;\n\n\tfor (; it !== p[it]; it = p[it]);\n\n\twhile (p[node] !== it) {\n\t\tconst parent = p[node];\n\t\tp[node] = it;\n\t\tnode = parent;\n\t}\n\n\treturn it;\n};\n\nexport const Universe = _RankedTreeUniverse(union, find);\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/ForestAmortizedTwoPasses.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "variable",
+    "name": "union",
+    "memberof": "src/adt/ForestAmortizedTwoPasses.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedTwoPasses.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedTwoPasses.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/ForestAmortizedTwoPasses.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/ForestAmortizedTwoPasses.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedTwoPasses.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "variable",
+    "name": "Universe",
+    "memberof": "src/adt/ForestAmortizedTwoPasses.js",
+    "static": true,
+    "longname": "src/adt/ForestAmortizedTwoPasses.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/ForestAmortizedTwoPasses.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/adt/LinkedList.js",
+    "content": "import {identity, nulls} from '../fundamentals/index.js';\n\nexport const union = (back, next, a, b) => {\n\tnext[back[a]] = b;\n\tback[a] = back[b];\n\treturn a;\n};\n\nexport const find = (next, node) => {\n\twhile (next[node] !== -1) node = next[node];\n\n\treturn node;\n};\n\nexport function Universe(n, List = Array) {\n\tthis.back = identity(n, List);\n\tthis.next = nulls(n, List);\n}\n\nUniverse.prototype.union = function (a, b) {\n\treturn union(this.back, this.next, a, b);\n};\n\nUniverse.prototype.find = function (node) {\n\treturn find(this.next, node);\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/LinkedList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedList.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedList.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "back",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedList.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedList.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "Universe",
+    "memberof": "src/adt/LinkedList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedList.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedList.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedList.js~union",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedList.js~find",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedList.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/adt/LinkedListWithHead.js",
+    "content": "import {identity, nulls} from '../fundamentals/index.js';\n\nexport const union = (back, next, a, b) => {\n\tnext[back[a]] = b;\n\tback[a] = back[b];\n\n\tfor (let c = next[a]; c !== b; c = next[c]) back[c] = back[b];\n\n\treturn a;\n};\n\nexport const find = (back, node) => back[node];\n\nexport function Universe(n, List = Array) {\n\tthis.back = identity(n, List);\n\tthis.next = nulls(n, List);\n}\n\nUniverse.prototype.union = function (a, b) {\n\treturn union(this.back, this.next, a, b);\n};\n\nUniverse.prototype.find = function (node) {\n\treturn find(this.back, node);\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/LinkedListWithHead.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedListWithHead.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHead.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHead.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "back",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedListWithHead.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHead.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHead.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "back",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "Universe",
+    "memberof": "src/adt/LinkedListWithHead.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHead.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHead.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 14,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 80,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedListWithHead.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHead.js~union",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHead.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedListWithHead.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHead.js~find",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHead.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/adt/LinkedListWithHeadAndLength.js",
+    "content": "import {identity, nulls, ones} from '../fundamentals/index.js';\n\nexport const union = (back, next, length, a, b) => {\n\tif (length[a] < length[b]) {\n\t\tconst c = a;\n\t\ta = b;\n\t\tb = c;\n\t}\n\n\tnext[back[a]] = b;\n\tback[a] = back[b];\n\n\tfor (let c = next[a]; c !== b; c = next[c]) back[c] = back[b];\n\n\tlength[a] += length[b];\n\n\treturn a;\n};\n\nexport const find = (back, node) => back[node];\n\nexport function Universe(n, List = Array) {\n\tthis.back = identity(n, List);\n\tthis.next = nulls(n, List);\n\tthis._length = ones(n, List);\n}\n\nUniverse.prototype.union = function (a, b) {\n\treturn union(this.back, this.next, this._length, a, b);\n};\n\nUniverse.prototype.find = function (node) {\n\treturn find(this.back, node);\n};\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedListWithHeadAndLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHeadAndLength.js~union",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "importStyle": "{union}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "back",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "next",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "length",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedListWithHeadAndLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHeadAndLength.js~find",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "importStyle": "{find}",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "params": [
+      {
+        "name": "back",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "Universe",
+    "memberof": "src/adt/LinkedListWithHeadAndLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHeadAndLength.js~Universe",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "importStyle": "{Universe}",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "function",
+    "name": "union",
+    "memberof": "src/adt/LinkedListWithHeadAndLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHeadAndLength.js~union",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "find",
+    "memberof": "src/adt/LinkedListWithHeadAndLength.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/adt/LinkedListWithHeadAndLength.js~find",
+    "access": "public",
+    "export": false,
+    "importPath": "@union-find/contiguous/src/adt/LinkedListWithHeadAndLength.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "params": [
+      {
+        "name": "node",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/fundamentals/_RankedTreeUniverse.js",
+    "content": "import identity from './identity.js';\nimport zeros from './zeros.js';\n\nexport default function _RankedTreeUniverse(union, find) {\n\tconst Universe = function (n, List = Array) {\n\t\tthis.p = identity(n, List);\n\t\tthis.r = zeros(n, List);\n\t};\n\n\tUniverse.prototype.union = function (a, b) {\n\t\treturn union(this.p, this.r, a, b);\n\t};\n\n\tUniverse.prototype.find = function (x) {\n\t\treturn find(this.p, x);\n\t};\n\n\treturn Universe;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/_RankedTreeUniverse.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "_RankedTreeUniverse",
+    "memberof": "src/fundamentals/_RankedTreeUniverse.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/_RankedTreeUniverse.js~_RankedTreeUniverse",
+    "access": "private",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/_RankedTreeUniverse.js",
+    "importStyle": "_RankedTreeUniverse",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "union",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "find",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/fundamentals/identity.js",
+    "content": "export default function identity(n, List = Array) {\n\tconst a = new List(n);\n\n\tfor (let i = 0; i < n; ++i) a[i] = i;\n\n\treturn a;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/identity.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "identity",
+    "memberof": "src/fundamentals/identity.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/identity.js~identity",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/identity.js",
+    "importStyle": "identity",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/fundamentals/index.js",
+    "content": "export {default as _RankedTreeUniverse} from './_RankedTreeUniverse.js';\nexport {default as ones} from './ones.js';\nexport {default as nulls} from './nulls.js';\nexport {default as identity} from './identity.js';\nexport {default as rankedtreeunion} from './rankedtreeunion.js';\nexport {default as zeros} from './zeros.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "file",
+    "name": "src/fundamentals/nulls.js",
+    "content": "export default function nulls(n, List = Array) {\n\tconst a = new List(n);\n\n\tfor (let i = 0; i < n; ++i) a[i] = -1;\n\n\treturn a;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/nulls.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 94,
+    "kind": "function",
+    "name": "nulls",
+    "memberof": "src/fundamentals/nulls.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/nulls.js~nulls",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/nulls.js",
+    "importStyle": "nulls",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "file",
+    "name": "src/fundamentals/ones.js",
+    "content": "export default function ones(n, List = Array) {\n\tconst a = new List(n);\n\n\tfor (let i = 0; i < n; ++i) a[i] = 1;\n\n\treturn a;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/ones.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 96,
+    "kind": "function",
+    "name": "ones",
+    "memberof": "src/fundamentals/ones.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/ones.js~ones",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/ones.js",
+    "importStyle": "ones",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/fundamentals/rankedtreeunion.js",
+    "content": "export default function rankedtreeunion(p, r, a, b) {\n\tif (r[a] < r[b]) {\n\t\tp[a] = b;\n\t\treturn b;\n\t}\n\n\tif (r[a] > r[b]) {\n\t\tp[b] = a;\n\t\treturn a;\n\t}\n\n\tp[b] = a;\n\t++r[a];\n\treturn a;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/rankedtreeunion.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "rankedtreeunion",
+    "memberof": "src/fundamentals/rankedtreeunion.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/rankedtreeunion.js~rankedtreeunion",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/rankedtreeunion.js",
+    "importStyle": "rankedtreeunion",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "r",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "a",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "b",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/fundamentals/zeros.js",
+    "content": "export default function zeros(n, List = Array) {\n\tconst a = new List(n);\n\n\tfor (let i = 0; i < n; ++i) a[i] = 0;\n\n\treturn a;\n}\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/fundamentals/zeros.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "zeros",
+    "memberof": "src/fundamentals/zeros.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fundamentals/zeros.js~zeros",
+    "access": "public",
+    "export": true,
+    "importPath": "@union-find/contiguous/src/fundamentals/zeros.js",
+    "importStyle": "zeros",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "n",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "List",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "Array",
+        "defaultValue": "Array"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export {\n\tForest,\n\tForestAmortizedRecursive,\n\tForestAmortizedHalving,\n\tForestAmortizedTwoPasses,\n\tForestAmortizedSplitting,\n\tLinkedList,\n\tLinkedListWithHeadAndLength,\n\tLinkedListWithHead,\n} from './adt/index.js';\n",
+    "static": true,
+    "longname": "/home/runner/work/contiguous/contiguous/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": ":rice: [@union-find/contiguous](https://union-find.github.io/contiguous)\n==\n\n<p align=\"center\">\n<a href=\"https://commons.wikimedia.org/wiki/File:Disjoint_sets.svg\">\n<img alt=\"A collection of disjoint sets\" src=\"https://upload.wikimedia.org/wikipedia/commons/a/a9/Disjoint_sets.svg\" width=\"300\">\n</a><br/>\n<a href=\"https://commons.wikimedia.org/w/index.php?title=User:Svjo\">\nUser:Svjo\n</a>\n/\n<a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>\n</p>\n\nContiguously-allocated disjoint-set data structures for JavaScript.\nSee [docs](https://union-find.github.io/contiguous).\nParent is\n[js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).\n\n```js\nU.find( a ) === U.find( b ) ; // false\nU.union( A , B ) ;\nU.find( a ) === U.find( b ) ; // true\n```\n\n[![License](https://img.shields.io/github/license/union-find/contiguous.svg)](https://raw.githubusercontent.com/union-find/contiguous/main/LICENSE)\n[![Version](https://img.shields.io/npm/v/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)\n[![Tests](https://img.shields.io/github/workflow/status/union-find/contiguous/ci?event=push&label=tests)](https://github.com/union-find/contiguous/actions/workflows/ci.yml?query=branch:main)\n[![Dependencies](https://img.shields.io/librariesio/github/union-find/contiguous.svg)](https://github.com/union-find/contiguous/network/dependencies)\n[![GitHub issues](https://img.shields.io/github/issues/union-find/contiguous.svg)](https://github.com/union-find/contiguous/issues)\n[![Downloads](https://img.shields.io/npm/dm/@union-find/contiguous.svg)](https://www.npmjs.org/package/@union-find/contiguous)\n\n[![Code issues](https://img.shields.io/codeclimate/issues/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/issues)\n[![Code maintainability](https://img.shields.io/codeclimate/maintainability/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/trends/churn)\n[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/union-find/contiguous/main.svg)](https://codecov.io/gh/union-find/contiguous)\n[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/union-find/contiguous.svg)](https://codeclimate.com/github/union-find/contiguous/trends/technical_debt)\n[![Documentation](https://union-find.github.io/contiguous/badge.svg)](https://union-find.github.io/contiguous/source.html)\n[![Package size](https://img.shields.io/bundlephobia/minzip/@union-find/contiguous)](https://bundlephobia.com/result?p=@union-find/contiguous)\n\n## :dancing_women: Related\n\n  - [`@union-find/non-contiguous`](https://github.com/union-find/non-contiguous):\n    Implementation of the same data structures with nodes and pointers instead\n    of arrays.\n\n## :scroll: References\n\n  - [Wikipedia page on disjoint-set data structures](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)\n",
+    "longname": "/home/runner/work/contiguous/contiguous/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@union-find/contiguous\",\n  \"description\": \"Fixed-size disjoint set data structures for JavaScript\",\n  \"version\": \"5.0.0\",\n  \"license\": \"AGPL-3.0\",\n  \"author\": \"make-github-pseudonymous-again\",\n  \"homepage\": \"https://union-find.github.io/contiguous\",\n  \"repository\": {\n    \"url\": \"https://github.com/union-find/contiguous\",\n    \"type\": \"git\"\n  },\n  \"bugs\": {\n    \"url\": \"https://github.com/union-find/contiguous/issues\"\n  },\n  \"keywords\": [\n    \"data\",\n    \"disjoint\",\n    \"find\",\n    \"fixed\",\n    \"javascript\",\n    \"js\",\n    \"merge\",\n    \"set\",\n    \"structures\",\n    \"union\"\n  ],\n  \"sideEffects\": false,\n  \"type\": \"module\",\n  \"source\": \"src/index.js\",\n  \"main\": \"dist/index.cjs\",\n  \"module\": \"dist/index.module.js\",\n  \"esmodule\": \"dist/index.modern.js\",\n  \"umd:main\": \"dist/index.umd.js\",\n  \"unpkg\": \"dist/index.umd.js\",\n  \"exports\": {\n    \".\": {\n      \"browser\": \"./dist/index.module.js\",\n      \"umd\": \"./dist/index.umd.js\",\n      \"require\": \"./dist/index.cjs\",\n      \"default\": \"./dist/index.modern.js\"\n    }\n  },\n  \"files\": [\n    \"dist\"\n  ],\n  \"publishConfig\": {\n    \"access\": \"public\"\n  },\n  \"scripts\": {\n    \"build\": \"NODE_ENV=production microbundle\",\n    \"build-docs\": \"esdoc\",\n    \"build-gh-pages\": \"npm run build-docs\",\n    \"commit-msg\": \"commitlint --edit\",\n    \"cover\": \"NODE_ENV=cover c8 --all --src src --reporter lcov --reporter text-summary --reporter text npm test\",\n    \"debug\": \"NODE_ENV=debug npm run test -- -st --fail-fast\",\n    \"dev\": \"npm run lint-config-and-fix && npm run lint-and-fix && npm run cover -- -- -st --fail-fast\",\n    \"install-hooks\": \"husky install\",\n    \"lint\": \"xo\",\n    \"lint-and-fix\": \"npm run lint -- --fix\",\n    \"lint-config\": \"fixpack --dryRun\",\n    \"lint-config-and-fix\": \"fixpack || fixpack\",\n    \"postinstall\": \"npm run install-hooks\",\n    \"postpublish\": \"pinst --enable\",\n    \"precommit\": \"lint-staged\",\n    \"prepare\": \"npm run build\",\n    \"prepublishOnly\": \"pinst --disable\",\n    \"release\": \"np --message ':hatching_chick: release: Bumping to v%s.'\",\n    \"test\": \"npm run test:src\",\n    \"test-cmd\": \"NODE_LOADER_CONFIG=test/loader/config.js ava\",\n    \"test:cjs\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.json npm run test-cmd\",\n    \"test:dist\": \"npm run test:modern && npm run test:module && npm run test:cjs\",\n    \"test:modern\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.modern.json npm run test-cmd\",\n    \"test:module\": \"IMPORT_MAP_PATH=test/import-maps/dist/index.module.json npm run test-cmd\",\n    \"test:src\": \"IMPORT_MAP_PATH=test/import-maps/src/index.json npm run test-cmd\"\n  },\n  \"dependencies\": {},\n  \"devDependencies\": {\n    \"@babel/core\": \"7.19.0\",\n    \"@babel/plugin-transform-for-of\": \"7.18.8\",\n    \"@babel/preset-env\": \"7.19.0\",\n    \"@commitlint/cli\": \"17.1.2\",\n    \"@js-library/commitlint-config\": \"0.0.4\",\n    \"@node-loader/babel\": \"2.0.1\",\n    \"@node-loader/core\": \"2.0.0\",\n    \"@node-loader/import-maps\": \"1.1.0\",\n    \"ava\": \"4.3.3\",\n    \"babel-plugin-transform-remove-console\": \"6.9.4\",\n    \"babel-plugin-unassert\": \"3.2.0\",\n    \"babel-preset-power-assert\": \"3.0.0\",\n    \"c8\": \"7.12.0\",\n    \"esdoc\": \"1.1.0\",\n    \"esdoc-inject-script-plugin\": \"1.0.0\",\n    \"esdoc-inject-style-plugin\": \"1.0.0\",\n    \"esdoc-standard-plugin\": \"1.0.0\",\n    \"fixpack\": \"4.0.0\",\n    \"husky\": \"8.0.1\",\n    \"lint-staged\": \"13.0.3\",\n    \"microbundle\": \"0.15.1\",\n    \"np\": \"7.6.2\",\n    \"pinst\": \"3.0.0\",\n    \"power-assert\": \"1.6.1\",\n    \"regenerator-runtime\": \"0.13.9\",\n    \"xo\": \"0.52.3\"\n  },\n  \"ava\": {\n    \"files\": [\n      \"test/src/**/*\"\n    ],\n    \"nodeArguments\": [\n      \"--experimental-loader=@node-loader/core\"\n    ],\n    \"require\": [\n      \"regenerator-runtime/runtime\"\n    ],\n    \"timeout\": \"1m\",\n    \"concurrency\": 8\n  },\n  \"babel\": {\n    \"sourceMaps\": true,\n    \"plugins\": [\n      [\n        \"transform-remove-console\",\n        {\n          \"exclude\": [\n            \"log\",\n            \"error\",\n            \"warn\"\n          ]\n        }\n      ]\n    ],\n    \"env\": {\n      \"debug\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ],\n        \"plugins\": [\n          [\n            \"transform-remove-console\",\n            {\n              \"exclude\": [\n                \"debug\",\n                \"log\",\n                \"error\",\n                \"warn\"\n              ]\n            }\n          ]\n        ]\n      },\n      \"test\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"cover\": {\n        \"sourceMaps\": \"both\",\n        \"presets\": [\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"development\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ],\n          \"babel-preset-power-assert\"\n        ]\n      },\n      \"production\": {\n        \"presets\": [\n          [\n            \"@babel/preset-env\",\n            {\n              \"targets\": [\n                \"defaults\",\n                \"maintained node versions\"\n              ]\n            }\n          ]\n        ],\n        \"plugins\": [\n          \"@babel/plugin-transform-for-of\",\n          \"babel-plugin-unassert\"\n        ]\n      }\n    }\n  },\n  \"lint-staged\": {\n    \"*.js\": [\n      \"npm run lint-and-fix\"\n    ],\n    \"package.json\": [\n      \"npm run lint-config-and-fix\"\n    ]\n  },\n  \"prettier\": {\n    \"trailingComma\": \"all\"\n  },\n  \"xo\": {\n    \"prettier\": true,\n    \"plugins\": [\n      \"unicorn\"\n    ],\n    \"rules\": {\n      \"unicorn/filename-case\": \"off\",\n      \"camelcase\": \"off\",\n      \"unicorn/prevent-abbreviations\": \"off\",\n      \"no-constant-condition\": \"off\",\n      \"unicorn/prefer-node-protocol\": \"off\",\n      \"unicorn/prefer-math-trunc\": \"off\",\n      \"unicorn/no-new-array\": \"off\",\n      \"no-negated-condition\": \"off\"\n    },\n    \"overrides\": [\n      {\n        \"files\": [\n          \"doc/**\"\n        ],\n        \"env\": \"browser\"\n      }\n    ]\n  }\n}\n",
+    "longname": "/home/runner/work/contiguous/contiguous/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/contiguous/contiguous/doc/manual/overview.md",
+    "name": "./doc/manual/overview.md",
+    "content": "# Overview\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/contiguous/contiguous/doc/manual/installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "# Installation\n\nCan be managed using\n[yarn](https://yarnpkg.com/en/docs),\n[npm](https://docs.npmjs.com),\nor [jspm](https://jspm.org/docs).\n\n\n### yarn\n```terminal\nyarn add @union-find/contiguous\n```\n\n### npm\n```terminal\nnpm install @union-find/contiguous --save\n```\n\n### jspm\n```terminal\njspm install npm:@union-find/contiguous\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/contiguous/contiguous/doc/manual/usage.md",
+    "name": "./doc/manual/usage.md",
+    "content": "# Usage\nImport the library where needed\n```js\nconst implementations = await import('@union-find/contiguous');\n// or\nimport * as implementations from '@union-find/contiguous';\n```\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "/home/runner/work/contiguous/contiguous/doc/manual/example.md",
+    "name": "./doc/manual/example.md",
+    "content": "# Examples\n```js\n// can choose between 8 different implementations\n//   - ForestAmortizedHalving\n//   - ForestAmortizedRecursive\n//   - ForestAmortizedSplitting\n//   - ForestAmortizedTwoPasses\n//   - Forest\n//   - LinkedList\n//   - LinkedListWithHeadAndLength\n//   - LinkedListWithHead\n\nimport { ForestAmortizedHalving } from '@union-find/contiguous' ;\n\nlet { Universe } = ForestAmortizedHalving ;\n\nlet U = new Universe( 3 ) ;\n\nlet a , b , c , A , B , C ;\n\nA = a = 0 ;\nB = b = 1 ;\nC = c = 2 ;\n\nU.find( a ) === U.find( a ) ; // true\nU.find( a ) === U.find( b ) ; // false\nU.find( a ) === U.find( c ) ; // false\n\nU.find( b ) === U.find( a ) ; // false\nU.find( b ) === U.find( b ) ; // true\nU.find( b ) === U.find( c ) ; // false\n\nU.find( c ) === U.find( a ) ; // false\nU.find( c ) === U.find( b ) ; // false\nU.find( c ) === U.find( c ) ; // true\n\nA = U.union( A , B ) ; // U.union( B , A ) would work too\ndelete B ;\n\nU.find( a ) === U.find( a ) ; // true\nU.find( a ) === U.find( b ) ; // true\nU.find( a ) === U.find( c ) ; // false\n\nU.find( b ) === U.find( a ) ; // true\nU.find( b ) === U.find( b ) ; // true\nU.find( b ) === U.find( c ) ; // false\n\nU.find( c ) === U.find( a ) ; // false\nU.find( c ) === U.find( b ) ; // false\nU.find( c ) === U.find( c ) ; // true\n```\n",
+    "static": true,
+    "access": "public"
+  }
+]
