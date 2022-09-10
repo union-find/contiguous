@@ -1,4 +1,4 @@
-import { selfs } from '../fundamentals' ;
+import { selfs } from '../fundamentals/index.js' ;
 
 export function union ( p , a , b ) {
 

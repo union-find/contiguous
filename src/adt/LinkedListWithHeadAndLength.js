@@ -1,4 +1,4 @@
-import { selfs , nulls , ones } from '../fundamentals' ;
+import { selfs , nulls , ones } from '../fundamentals/index.js' ;
 
 export function union ( back , next , length , a , b ) {
 

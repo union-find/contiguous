@@ -9,7 +9,7 @@ import {
 	ForestAmortizedTwoPasses ,
 	ForestAmortizedSplitting ,
 	ForestAmortizedHalving ,
-} from '../../src' ;
+} from '../../src/index.js' ;
 
 function macro ( t , Universe ) {
 

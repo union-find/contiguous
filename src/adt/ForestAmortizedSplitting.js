@@ -1,4 +1,4 @@
-import { rankedtreeunion , _RankedTreeUniverse } from '../fundamentals' ;
+import { rankedtreeunion , _RankedTreeUniverse } from '../fundamentals/index.js' ;
 
 export const union = rankedtreeunion ;
 

@@ -7,7 +7,7 @@ import {
 	LinkedList ,
 	LinkedListWithHead ,
 	LinkedListWithHeadAndLength ,
-} from './adt' ;
+} from './adt/index.js' ;
 
 export default {
 	Forest ,

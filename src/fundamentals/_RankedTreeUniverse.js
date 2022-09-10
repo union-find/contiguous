@@ -1,5 +1,5 @@
-import selfs from './selfs' ;
-import zeros from './zeros' ;
+import selfs from './selfs.js' ;
+import zeros from './zeros.js' ;
 
 export default function _RankedTreeUniverse ( union , find ) {
 

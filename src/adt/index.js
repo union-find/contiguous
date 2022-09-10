@@ -1,11 +1,11 @@
-import Forest from './Forest' ;
-import ForestAmortizedHalving from './ForestAmortizedHalving' ;
-import ForestAmortizedRecursive from './ForestAmortizedRecursive' ;
-import ForestAmortizedSplitting from './ForestAmortizedSplitting' ;
-import ForestAmortizedTwoPasses from './ForestAmortizedTwoPasses' ;
-import LinkedList from './LinkedList' ;
-import LinkedListWithHead from './LinkedListWithHead' ;
-import LinkedListWithHeadAndLength from './LinkedListWithHeadAndLength' ;
+import Forest from './Forest.js' ;
+import ForestAmortizedHalving from './ForestAmortizedHalving.js' ;
+import ForestAmortizedRecursive from './ForestAmortizedRecursive.js' ;
+import ForestAmortizedSplitting from './ForestAmortizedSplitting.js' ;
+import ForestAmortizedTwoPasses from './ForestAmortizedTwoPasses.js' ;
+import LinkedList from './LinkedList.js' ;
+import LinkedListWithHead from './LinkedListWithHead.js' ;
+import LinkedListWithHeadAndLength from './LinkedListWithHeadAndLength.js' ;
 
 export default {
 	Forest ,
