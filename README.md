@@ -12,7 +12,7 @@ User:Svjo
 <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>
 </p>
 
-Fixed-size-array-based disjoint-set data structures for JavaScript.
+Contiguously-allocated disjoint-set data structures for JavaScript.
 See [docs](https://union-find.github.io/contiguous).
 Parent is
 [js-data-structures](https://github.com/make-github-pseudonymous-again/js-data-structures).
@@ -39,9 +39,9 @@ U.find( a ) === U.find( b ) ; // true
 
 ## :dancing_women: Related
 
-  - [@union-find/non-contiguous](https://github.com/union-find/non-contiguous):
-    implementation of the same data structures with nodes and pointers instead
-    of arrays
+  - [`@union-find/non-contiguous`](https://github.com/union-find/non-contiguous):
+    Implementation of the same data structures with nodes and pointers instead
+    of arrays.
 
 ## :scroll: References
 

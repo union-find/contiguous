@@ -6,8 +6,8 @@
   "author": "make-github-pseudonymous-again",
   "homepage": "https://union-find.github.io/contiguous",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/union-find/contiguous"
+    "url": "https://github.com/union-find/contiguous",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/union-find/contiguous/issues"

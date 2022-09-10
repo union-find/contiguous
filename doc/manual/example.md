@@ -10,7 +10,9 @@
 //   - LinkedListWithHeadAndLength
 //   - LinkedListWithHead
 
-let { Universe } = fixeddisjointset.ForestAmortizedHalving ;
+import { ForestAmortizedHalving } from '@union-find/contiguous' ;
+
+let { Universe } = ForestAmortizedHalving ;
 
 let U = new Universe( 3 ) ;
 
