@@ -95,17 +95,17 @@
     "xo": "0.52.3"
   },
   "ava": {
-    "require": [
-      "regenerator-runtime/runtime"
-    ],
     "files": [
       "test/src/**/*"
     ],
-    "timeout": "1m",
-    "concurrency": 8,
     "nodeArguments": [
       "--experimental-loader=@node-loader/babel"
-    ]
+    ],
+    "require": [
+      "regenerator-runtime/runtime"
+    ],
+    "timeout": "1m",
+    "concurrency": 8
   },
   "babel": {
     "sourceMaps": true,
