@@ -2,7 +2,67 @@
   "name": "@union-find/contiguous",
   "description": "Fixed-size disjoint set data structures for JavaScript",
   "version": "4.0.0",
+  "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
+  "homepage": "https://union-find.github.io/contiguous",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/union-find/contiguous"
+  },
+  "bugs": {
+    "url": "https://github.com/union-find/contiguous/issues"
+  },
+  "keywords": [
+    "data",
+    "disjoint",
+    "find",
+    "fixed",
+    "javascript",
+    "js",
+    "merge",
+    "set",
+    "structures",
+    "union"
+  ],
+  "sideEffects": false,
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "babel --delete-dir-on-start --env-name production src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "dev": "npm run lint -- --fix && npm run cover -- -- -st --fail-fast",
+    "esdoc": "esdoc",
+    "lint": "true",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava",
+    "travis": "npm run lint && npm run cover"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "7.18.10",
+    "@babel/core": "7.19.0",
+    "@babel/preset-env": "7.19.0",
+    "@babel/register": "7.18.9",
+    "ava": "3.15.0",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "babel-plugin-unassert": "3.2.0",
+    "babel-preset-power-assert": "3.0.0",
+    "coveralls": "3.1.1",
+    "esdoc": "1.1.0",
+    "esdoc-inject-script-plugin": "1.0.0",
+    "esdoc-inject-style-plugin": "1.0.0",
+    "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
+    "np": "7.6.2",
+    "nyc": "15.1.0",
+    "power-assert": "1.6.1",
+    "regenerator-runtime": "0.13.9"
+  },
   "ava": {
     "require": [
       "regenerator-runtime/runtime",
@@ -72,65 +132,5 @@
         "sourceMaps": "inline"
       }
     }
-  },
-  "bugs": {
-    "url": "https://github.com/union-find/contiguous/issues"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/cli": "7.18.10",
-    "@babel/core": "7.19.0",
-    "@babel/preset-env": "7.19.0",
-    "@babel/register": "7.18.9",
-    "ava": "3.15.0",
-    "babel-plugin-transform-remove-console": "6.9.4",
-    "babel-plugin-unassert": "3.2.0",
-    "babel-preset-power-assert": "3.0.0",
-    "coveralls": "3.1.1",
-    "esdoc": "1.1.0",
-    "esdoc-inject-script-plugin": "1.0.0",
-    "esdoc-inject-style-plugin": "1.0.0",
-    "esdoc-standard-plugin": "1.0.0",
-    "np": "7.6.2",
-    "nyc": "15.1.0",
-    "power-assert": "1.6.1",
-    "regenerator-runtime": "0.13.9",
-    "fixpack": "4.0.0"
-  },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://union-find.github.io/contiguous",
-  "keywords": [
-    "data",
-    "disjoint",
-    "find",
-    "fixed",
-    "javascript",
-    "js",
-    "merge",
-    "set",
-    "structures",
-    "union"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/union-find/contiguous"
-  },
-  "scripts": {
-    "build": "babel --delete-dir-on-start --env-name production src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "dev": "npm run lint -- --fix && npm run cover -- -- -st --fail-fast",
-    "esdoc": "esdoc",
-    "lint": "true",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "ava",
-    "travis": "npm run lint && npm run cover",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
-  },
-  "sideEffects": false
+  }
 }
