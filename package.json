@@ -75,7 +75,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.27.1",
+    "@babel/core": "7.27.3",
     "@babel/plugin-transform-for-of": "7.27.1",
     "@babel/preset-env": "7.27.2",
     "@commitlint/cli": "19.8.1",
